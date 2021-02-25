@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<inventory format-version="1.0">
+	<drivers>
+		<driver>
+			<id>c84884a3-f4e8-4316-9117-a073bac4d8eb</id>
+			<name>AWS Driver 1.0.0</name>
+			<description></description>
+			<attachment>
+				<id>c44eb29f-4d5c-461d-9d8a-cd2e4dce661a</id>
+				<name>aws-driver-1.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>9b64f0e5-7724-4d90-8a78-3884b8a44230</id>
+			<name>AWS L2 Switch Driver 1.0.0</name>
+			<description></description>
+			<attachment>
+				<id>b7210573-02dd-4b14-acc8-2bea73d0c1b0</id>
+				<name>aws-l2-switch-driver-1.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>68ca4b20-96de-4c72-a1b7-61bddefc424c</id>
+			<name>Calient Driver 1.0.11</name>
+			<description></description>
+			<attachment>
+				<id>545dff01-a00f-4599-8f18-be488f972ede</id>
+				<name>calient-driver-1.0.11</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>0dafb906-4d92-47af-84a0-9e0097436f6c</id>
+			<name>Cisco Driver 5.4.2</name>
+			<description></description>
+			<attachment>
+				<id>14353734-0619-4fdc-b8ad-8acc8a2912d0</id>
+				<name>cisco-driver-5.4.2</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>867c61ac-a189-11ea-bb37-0242ac130002</id>
+			<name>Kubernetes Driver 1.0.0</name>
+			<description></description>
+			<attachment>
+				<id>87059831-8217-4d89-a0e2-4ca30aa652a9</id>
+				<name>kubernetes-driver-1.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>66789c02-22f2-11e9-ab1d-663bd873d93c</id>
+			<name>Lepton L1 Switch Driver 2.0.0</name>
+			<description></description>
+			<attachment>
+				<id>65b06a8c-29e8-46cb-9ad6-aa0fc8088b12</id>
+				<name>lepton-driver-2.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>c1e3ce79-748e-4749-913d-a399c0f22b77</id>
+			<name>MRV Driver 5.4.0</name>
+			<description></description>
+			<attachment>
+				<id>0f09056e-84dc-48f5-8982-f285ec9a810d</id>
+				<name>mrv-driver-5.4.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>caaf1720-d3e6-4ca1-9615-3458b80d1cf3</id>
+			<name>NetScout Driver 2.5.1</name>
+			<description></description>
+			<attachment>
+				<id>6dba5f76-d3e3-4052-b782-539a679b495b</id>
+				<name>netscout-driver-2.5.1</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>e660edc3-e5b6-4ecd-bcd9-5a152ffb94ec</id>
+			<name>Ping Driver 2.0.0</name>
+			<description></description>
+			<attachment>
+				<id>d686c552-b51c-4804-a39e-cd3abe163a81</id>
+				<name>ping-driver-2.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>b7a10e22-d00f-4dc2-a3f4-f375a08cffe5</id>
+			<name>Ping6 Driver 1.2.0</name>
+			<description></description>
+			<attachment>
+				<id>a3472dae-bb6f-4400-84ce-77ec8e601f90</id>
+				<name>ping6-driver-1.2.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>960abfe9-d550-4d14-870a-732672f07c46</id>
+			<name>Polatis Driver 6.7.2</name>
+			<description></description>
+			<attachment>
+				<id>2fcfb949-a31c-412d-8edb-0a75670af209</id>
+				<name>polatis-driver-6.7.2</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>565b35cf-2764-44c7-8312-a3be6dec9997</id>
+			<name>SNMP Driver 2.5.0</name>
+			<description></description>
+			<attachment>
+				<id>33af932a-1a76-4408-a448-d9c1d4103e80</id>
+				<name>snmp-driver-2.5.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+	</drivers>
+	<templates>
+		<template>
+			<id>0f8dec97-74fa-4ec2-9aef-c8f5894436c7</id>
+			<revisionId>0f8dec97-74fa-4ec2-9aef-c8f5894436c7</revisionId>
+			<name>Template1</name>
+			<description></description>
+			<isTemplate>true</isTemplate>
+			<type>DEVICE</type>
+			<interfaceType>ORCHESTRATION</interfaceType>
+			<utilizationType>SHARED</utilizationType>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isCustomReservationTime>false</isCustomReservationTime>
+			<icon/>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
+		</template>
+	</templates>
+	<cableTypes/>
+	<resources/>
+	<cables/>
+	<orchestratedResources/>
+	<abstractResources/>
+	<links/>
+	<associations/>
+</inventory>
