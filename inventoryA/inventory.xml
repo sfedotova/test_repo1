@@ -136,13 +136,7 @@
 			<isCustomReservationTime>false</isCustomReservationTime>
 			<icon/>
 			<defaultImageAttach/>
-			<defaultConfigAttach>
-				<attachment>
-					<id>946e5de8-f26b-4166-a114-55e85c6e4847</id>
-					<name>c2.txt</name>
-					<contentType>text/plain</contentType>
-				</attachment>
-			</defaultConfigAttach>
+			<defaultConfigAttach/>
 		</template>
 	</templates>
 	<cableTypes/>
