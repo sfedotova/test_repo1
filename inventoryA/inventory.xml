@@ -6,7 +6,7 @@
 			<name>AWS Driver 1.0.0</name>
 			<description></description>
 			<attachment>
-				<id>c44eb29f-4d5c-461d-9d8a-cd2e4dce661a</id>
+				<id>7b8357e9-d848-42dc-923b-9caee5f3141f</id>
 				<name>aws-driver-1.0.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -16,7 +16,7 @@
 			<name>AWS L2 Switch Driver 1.0.0</name>
 			<description></description>
 			<attachment>
-				<id>b7210573-02dd-4b14-acc8-2bea73d0c1b0</id>
+				<id>0b35bff5-2386-44d6-aba2-805ff2505325</id>
 				<name>aws-l2-switch-driver-1.0.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -26,7 +26,7 @@
 			<name>Calient Driver 1.0.11</name>
 			<description></description>
 			<attachment>
-				<id>545dff01-a00f-4599-8f18-be488f972ede</id>
+				<id>dc456424-ecf8-40a3-bf38-15ef3fd2619b</id>
 				<name>calient-driver-1.0.11</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -36,7 +36,7 @@
 			<name>Cisco Driver 5.4.2</name>
 			<description></description>
 			<attachment>
-				<id>14353734-0619-4fdc-b8ad-8acc8a2912d0</id>
+				<id>f6e64a1e-8781-441e-a89b-580ad72bbde2</id>
 				<name>cisco-driver-5.4.2</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -46,7 +46,7 @@
 			<name>Kubernetes Driver 1.0.0</name>
 			<description></description>
 			<attachment>
-				<id>87059831-8217-4d89-a0e2-4ca30aa652a9</id>
+				<id>0b545356-3c6c-456d-a793-ffbf94a610b7</id>
 				<name>kubernetes-driver-1.0.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -56,7 +56,7 @@
 			<name>Lepton L1 Switch Driver 2.0.0</name>
 			<description></description>
 			<attachment>
-				<id>65b06a8c-29e8-46cb-9ad6-aa0fc8088b12</id>
+				<id>91de586d-dce8-49a2-807c-2767183ac45e</id>
 				<name>lepton-driver-2.0.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -66,7 +66,7 @@
 			<name>MRV Driver 5.4.0</name>
 			<description></description>
 			<attachment>
-				<id>0f09056e-84dc-48f5-8982-f285ec9a810d</id>
+				<id>379e8d7f-4b33-4634-b3d7-88514c6c0f47</id>
 				<name>mrv-driver-5.4.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -76,7 +76,7 @@
 			<name>NetScout Driver 2.5.1</name>
 			<description></description>
 			<attachment>
-				<id>6dba5f76-d3e3-4052-b782-539a679b495b</id>
+				<id>c1dda770-3e1a-47d8-8891-ac092d17f11c</id>
 				<name>netscout-driver-2.5.1</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -86,7 +86,7 @@
 			<name>Ping Driver 2.0.0</name>
 			<description></description>
 			<attachment>
-				<id>d686c552-b51c-4804-a39e-cd3abe163a81</id>
+				<id>bd4effe5-883c-4926-8c66-b4b2310d1e3a</id>
 				<name>ping-driver-2.0.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -96,7 +96,7 @@
 			<name>Ping6 Driver 1.2.0</name>
 			<description></description>
 			<attachment>
-				<id>a3472dae-bb6f-4400-84ce-77ec8e601f90</id>
+				<id>d1e1b1ac-e9be-4fcd-8651-436a5777debd</id>
 				<name>ping6-driver-1.2.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -106,7 +106,7 @@
 			<name>Polatis Driver 6.7.2</name>
 			<description></description>
 			<attachment>
-				<id>2fcfb949-a31c-412d-8edb-0a75670af209</id>
+				<id>1cdc67eb-ce65-42f3-b432-7e9ec0ef7ea9</id>
 				<name>polatis-driver-6.7.2</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -116,7 +116,7 @@
 			<name>SNMP Driver 2.5.0</name>
 			<description></description>
 			<attachment>
-				<id>33af932a-1a76-4408-a448-d9c1d4103e80</id>
+				<id>cc7fc818-7da8-46bb-8b52-17ca4bfec9a3</id>
 				<name>snmp-driver-2.5.0</name>
 				<contentType>application/zip</contentType>
 			</attachment>
@@ -136,7 +136,13 @@
 			<isCustomReservationTime>false</isCustomReservationTime>
 			<icon/>
 			<defaultImageAttach/>
-			<defaultConfigAttach/>
+			<defaultConfigAttach>
+				<attachment>
+					<id>946e5de8-f26b-4166-a114-55e85c6e4847</id>
+					<name>c1.txt</name>
+					<contentType>text/plain</contentType>
+				</attachment>
+			</defaultConfigAttach>
 		</template>
 	</templates>
 	<cableTypes/>
