@@ -4133,21 +4133,6 @@
 			<defaultConfigAttach/>
 		</template>
 		<template>
-			<id>42afd5b8-5379-419d-a2e4-e6c4d1d4ba5d</id>
-			<revisionId>42afd5b8-5379-419d-a2e4-e6c4d1d4ba5d</revisionId>
-			<name>Template for resource</name>
-			<description></description>
-			<isTemplate>true</isTemplate>
-			<type>DEVICE</type>
-			<interfaceType>NONE</interfaceType>
-			<utilizationType>SHARED</utilizationType>
-			<reservationTime>IMMEDIATE</reservationTime>
-			<isCustomReservationTime>false</isCustomReservationTime>
-			<icon/>
-			<defaultImageAttach/>
-			<defaultConfigAttach/>
-		</template>
-		<template>
 			<id>8e908bea-c086-4f47-b63c-2592461a2f02</id>
 			<revisionId>8e908bea-c086-4f47-b63c-2592461a2f02</revisionId>
 			<name>Template not used</name>
