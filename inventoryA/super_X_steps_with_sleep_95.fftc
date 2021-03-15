@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<testCase version="5.0.0.77059">
+    <execution>
+        <parameters version="5.0.0.77059">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <my_iterations>1</my_iterations>
+                    <Landslide>
+                        <GGSNNodal>
+                            <Gn>
+                                <GTP>
+                                    <MsIsdn pt:description="MSISDN Number"/>
+                                </GTP>
+                            </Gn>
+                        </GGSNNodal>
+                    </Landslide>
+                    <sleep_seconds>2</sleep_seconds>
+                </parameters>
+            </parameters>
+        </parameters>
+    </execution>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="7b4f2c58-c302-4cf8-92df-3cec85c79a87" action="eval">
+                    <command>
+                        <body>set i 0</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <useFieldsInCommand>false</useFieldsInCommand>
+                </item>
+                <item guid="97b62e2b-53c2-4935-a3b6-1c58b5a8a682" action="for">
+                    <command>
+                        <body>{set i 0} {$i &lt; [param my_iterations]} {incr i}</body>
+                    </command>
+                    <nestedSteps>
+                        <item guid="a590df79-f925-42e7-acd7-b4805fbbe9d4" action="eval">
+                            <command>
+                                <body>puts [expr [param Landslide/GGSNNodal/Gn/GTP/MsIsdn] * [param Landslide/GGSNNodal/Gn/GTP/MsIsdn]]</body>
+                            </command>
+                            <postProcessing>
+                                <analysisRules>
+                                    <item>
+                                        <extractorInfo extractorType="contains">
+                                            <extractorProperties type="com.fnfr.svt.mapping.execution.extractors.ExtractorContainsPropertyGroup">
+                                                <searchString>1702711817009760001</searchString>
+                                            </extractorProperties>
+                                        </extractorInfo>
+                                        <processorInfo ruleType="assert">
+                                            <ruleProperties type="com.fnfr.svt.execution.builtin.processors.AssertionPropertyGroup">
+                                                <expression>$value == 1</expression>
+                                                <actionsWhenTrue>
+                                                    <item actionId="DeclareExecutionIssue">
+                                                        <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
+                                                            <message>{auto_message_true}</message>
+                                                        </actionProperties>
+                                                    </item>
+                                                    <item actionId="PassTestIfNotAlreadyFailed">
+                                                        <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                                    </item>
+                                                </actionsWhenTrue>
+                                                <actionsWhenFalse>
+                                                    <item actionId="DeclareExecutionIssue">
+                                                        <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
+                                                            <message>{auto_message_false}</message>
+                                                        </actionProperties>
+                                                    </item>
+                                                    <item actionId="FailTest">
+                                                        <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                                    </item>
+                                                </actionsWhenFalse>
+                                            </ruleProperties>
+                                        </processorInfo>
+                                    </item>
+                                </analysisRules>
+                            </postProcessing>
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                            <useFieldsInCommand>false</useFieldsInCommand>
+                        </item>
+                        <item guid="bc4702ff-ef20-47e8-8bae-9a75d1be50c8" action="sleep">
+                            <command>
+                                <body>[param sleep_seconds]</body>
+                            </command>
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        </item>
+                    </nestedSteps>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <useFieldsInCommand>false</useFieldsInCommand>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
