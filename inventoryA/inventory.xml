@@ -4,7 +4,7 @@
 			<template>
 			<id>a6792f0a-190d-4ca5-9459-099f4e1aa898</id>
 			<revisionId>a6792f0a-190d-4ca5-9459-099f4e1aa898</revisionId>
-			<name>RepoTest1-T1.N-Additional</name>
+			<name>T1.N-Additional</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
 			<type>DEVICE</type>
@@ -20,7 +20,7 @@
 		<template>
 			<id>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</id>
 			<revisionId>79d2ccd3-6a77-46df-ac89-eaa3c6fea153</revisionId>
-			<name>RepoTest1-T-Port</name>
+			<name>T-Port</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
 			<type>PORT</type>
@@ -143,7 +143,7 @@ area</value>
 		<template>
 			<id>dbac1799-d0b5-4da9-856c-c2039488dc2a</id>
 			<revisionId>dbac1799-d0b5-4da9-856c-c2039488dc2a</revisionId>
-			<name>RepoTest1-T1.1</name>
+			<name>T1.1</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
 			<type>DEVICE</type>
@@ -428,7 +428,7 @@ area</value>
 		<template>
 			<id>8a0557a8-862c-470c-8c1c-c00fa768dd75</id>
 			<revisionId>8a0557a8-862c-470c-8c1c-c00fa768dd75</revisionId>
-			<name>RepoTest1-T1.2</name>
+			<name>T1.2</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
 			<parentTemplateId>dbac1799-d0b5-4da9-856c-c2039488dc2a</parentTemplateId>
@@ -710,7 +710,7 @@ area</value>
 		<template>
 			<id>f6792f0a-190d-4ca5-9459-099f4e1aa898</id>
 			<revisionId>f6792f0a-190d-4ca5-9459-099f4e1aa898</revisionId>
-			<name>RepoTest1-T1.N</name>
+			<name>T1.N</name>
 			<description>Description</description>
 			<isTemplate>true</isTemplate>
 			<type>DEVICE</type>
@@ -992,7 +992,7 @@ area</value>
 		<orchestratedResource>
 			<id>c89d3e10-d062-446a-86fa-e3b46bcc7c59</id>
 			<type>DEVICE</type>
-			<name>RepoTest1-Orchestrated T1.1</name>
+			<name>Orchestrated T1.1</name>
 			<description>Description</description>
 			<role>S2_ORCHESTRATED</role>
 			<referencedTemplateId>dbac1799-d0b5-4da9-856c-c2039488dc2a</referencedTemplateId>
@@ -1094,7 +1094,7 @@ area</value>
 		<abstractResource>
 			<id>386fb963-5c14-452a-a9cd-1b0646d83c03</id>
 			<type>DEVICE</type>
-			<name>RepoTest1-Abstract Device</name>
+			<name>Abstract Device</name>
 			<description>Desc</description>
 			<condition>template[T1.1]</condition>
 			<reservationTime>IMMEDIATE</reservationTime>
@@ -1174,7 +1174,7 @@ area</value>
 		<abstractResource>
 			<id>9f6cf0a3-da35-43b6-8db2-cd6f3e6e3136</id>
 			<type>LINK</type>
-			<name>RepoTest1-Abstract Link</name>
+			<name>Abstract Link</name>
 			<description>Description</description>
 			<condition>integer[Port Speed] >= 0</condition>
 			<reservationTime>IMMEDIATE</reservationTime>
@@ -1184,7 +1184,7 @@ area</value>
 		<abstractResource>
 			<id>5a4737ef-7271-4680-a0a2-29f0c73f3513</id>
 			<type>PORT</type>
-			<name>RepoTest1-Abstract Port</name>
+			<name>Abstract Port</name>
 			<description>Description</description>
 			<condition>template[T-Port]</condition>
 			<reservationTime>IMMEDIATE</reservationTime>
@@ -1194,7 +1194,7 @@ area</value>
 	</abstractResources>
 	<topologies>
 		<topology>
-			<name>RepoTest1-Repository Topology</name>
+			<name>Repository Topology</name>
 			<versionId>ba14a52b-8a2b-4c24-8647-f4dfa8f5e2a5</versionId>
 			<attachment>
 				<id>a17d8cfd-a76a-46a3-a2eb-519fe102b732</id>
