@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<testCase version="4.4.0.75339">
+    <general>
+        <owner>heyu</owner>
+    </general>
+    <execution>
+        <parameters version="4.4.0.75339">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <hostname>itp-perf.spirenteng.com</hostname>
+                    <topologyname>perftest_topology_2</topologyname>
+                    <topologyid>c5b46ee6-bb1f-4d81-8982-ae41b31d933e</topologyid>
+                    <ping_target>10.155.2.3</ping_target>
+                </parameters>
+            </parameters>
+        </parameters>
+    </execution>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="9aa88709-f89e-49e3-9fee-1c4adc3abf8c" action="open" session="t1">
+                    <command>
+                        <body>project://velocity_test_contents/session_profiles/velocity_rest_placeholder.ffsp</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
+                        <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        <sessionProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulSessionProperties"/>
+                        <sessionClass type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    </applicationProperties>
+                </item>
+                <item guid="34bd4831-da00-420a-992f-fb8bc0d39944" action="POST" session="t1" normalOffset="151.908" estimatedStepExecutionTime="0.052">
+                    <command>
+                        <body>https://[param hostname]/ito/authentication/v0/authentication/</body>
+                    </command>
+                    <postProcessing>
+                        <analysisRules>
+                            <item>
+                                <extractorInfo extractorType="regex">
+                                    <extractorProperties type="com.fnfr.svt.mapping.regex.extractors.RegexExtractorPropertyGroup">
+                                        <regex>&quot;token&quot;: &quot;(\\S+)&quot;</regex>
+                                    </extractorProperties>
+                                </extractorInfo>
+                                <processorInfo ruleType="store">
+                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.StoreProcessorPropertyGroup">
+                                        <storageLocation>token</storageLocation>
+                                    </ruleProperties>
+                                </processorInfo>
+                            </item>
+                        </analysisRules>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulInvokeProperties" message="{&quot;user_id&quot; : &quot;spirent&quot;, &quot;password&quot; : &quot;spirent&quot;, &quot;domain&quot; : &quot;ldap&quot;}" message.inherit="false" action="https://[param hostname]/ito/authentication/v0/authentication/" action.inherit="false" rawresponse="true" rawresponse.inherit="false" includeHttpStatusLine="true" includeHttpStatusLine.inherit="false">
+                        <authentication transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.AuthenticationProperties" authenticationType="Secure" authenticationType.inherit="false" acceptAllCertificates="true" acceptAllCertificates.inherit="false"/>
+                        <httpHeader inherit="false" transferableToolId="com.fnfr.itest.applications.webservices.restful">
+                            <memberClasses>
+                                <item>com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry</item>
+                            </memberClasses>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="ITO_DEV_KEY" header.inherit="false" value="eyJpZCI6ICIyNDg0ZmJhMi04MjBiLTQxODgtOTUwYi05YmYwZDY3ODM3YzgiLCAic2lnbmF0dXJlIjogImMzMWM5YzAyOWQ0OTlkMzUxYWNiZjE3ZmFiZTVkNmFhZGY3NWIxMjM2NTY2ZTZjNjJkNzBlMjgwMmQzZjE3NGY5MzhmOTYzMWUwNWM3NDNlYTgzMWQ2NDQ3OTE0ZjZiMDAzNWUwMzEyNjcxZWIzODUwZjNjZGU3NGMxYjYxOTg4ZDdjZGU3YWZiMWU1MmRiYjQyODY5MGQ1YmY0ZWFhMzc2ZmNmOWI0NjZlZjUxMWNkNjllZjRiN2VlNWY2MTc2ZTVkZDg3ODE0N2FlODdmMDFiMjk0MGYxM2ZlYzUyZDZhODM4MDA1YTUwMzM5ZjIxNzFlOWU3NmE0MmE1NDE0MmYifQ==" value.inherit="false"/>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="Content-Type" header.inherit="false" value="application/json" value.inherit="false"/>
+                        </httpHeader>
+                    </applicationProperties>
+                </item>
+                <item guid="22eb0909-22aa-4c56-8f3d-d5d0d1622904" action="GET" session="t1">
+                    <command>
+                        <body>https://[param hostname]/velocity/api/util/v1/time</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulInvokeProperties" action="https://[param hostname]/velocity/api/util/v1/time" action.inherit="false" rawresponse="true" rawresponse.inherit="false" includeHttpHeaders="true" includeHttpHeaders.inherit="false" includeHttpStatusLine="true" includeHttpStatusLine.inherit="false">
+                        <authentication transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.AuthenticationProperties" authenticationType="Secure" authenticationType.inherit="false" acceptAllCertificates="true" acceptAllCertificates.inherit="false"/>
+                    </applicationProperties>
+                </item>
+                <item guid="3032a98d-2e65-4387-b817-cce1f0caf27c" action="eval">
+                    <command>
+                        <body>set start_time [clock seconds]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <useFieldsInCommand>false</useFieldsInCommand>
+                </item>
+                <item guid="8f8d5ed8-1d08-499c-850e-37afcd34217e" action="eval">
+                    <command>
+                        <body>set end_time [expr $start_time * 1000 + 3600000]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <useFieldsInCommand>false</useFieldsInCommand>
+                </item>
+                <item guid="e7acd3bc-80a7-49ea-b94c-9ba959ac5fcb" action="POST" session="t1">
+                    <command>
+                        <body>https://[param hostname]/velocity/api/reservation/v2/reservation</body>
+                    </command>
+                    <postProcessing>
+                        <analysisRules>
+                            <item>
+                                <extractorInfo extractorType="regex">
+                                    <extractorProperties type="com.fnfr.svt.mapping.regex.extractors.RegexExtractorPropertyGroup">
+                                        <regex>&quot;id&quot;:&quot;(\\S+)&quot;,&quot;name</regex>
+                                    </extractorProperties>
+                                </extractorInfo>
+                                <processorInfo ruleType="store">
+                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.StoreProcessorPropertyGroup">
+                                        <storageLocation>reservationId</storageLocation>
+                                    </ruleProperties>
+                                </processorInfo>
+                            </item>
+                        </analysisRules>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulInvokeProperties" message="{&quot;name&quot;:&quot;[param topologyname]&quot;,&quot;description&quot;:&quot;&quot;,&quot;end&quot;:$end_time,&quot;topologyId&quot;:&quot;[param topologyid]&quot;}" message.inherit="false" action="https://[param hostname]/velocity/api/reservation/v2/reservation" action.inherit="false" rawresponse="true" rawresponse.inherit="false" includeHttpHeaders="true" includeHttpHeaders.inherit="false" includeHttpStatusLine="true" includeHttpStatusLine.inherit="false">
+                        <authentication transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.AuthenticationProperties" authenticationType="Secure" authenticationType.inherit="false" user.inherit="false" password.masked="true" password="CaK+mWSFs84=" password.inherit="false" acceptAllCertificates="true" acceptAllCertificates.inherit="false"/>
+                        <httpHeader inherit="false" transferableToolId="com.fnfr.itest.applications.webservices.restful">
+                            <memberClasses>
+                                <item>com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry</item>
+                            </memberClasses>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="X-Auth-Token" header.inherit="false" value="$token" value.inherit="false"/>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="Accept" header.inherit="false" value="application/json" value.inherit="false"/>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="Content-Type" header.inherit="false" value="application/json" value.inherit="false"/>
+                        </httpHeader>
+                    </applicationProperties>
+                </item>
+                <item guid="ad6ebae0-1542-497f-8b4f-eb70c7d2ba68" action="GET" session="t1">
+                    <command>
+                        <body>https://[param hostname]/velocity/api/reservation/v2/reservation/$reservationId</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulInvokeProperties" action="https://[param hostname]/velocity/api/reservation/v2/reservation/$reservationId" action.inherit="false" rawresponse="true" rawresponse.inherit="false" includeHttpHeaders="true" includeHttpHeaders.inherit="false" includeHttpStatusLine="true" includeHttpStatusLine.inherit="false">
+                        <authentication transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.AuthenticationProperties" authenticationType="Secure" authenticationType.inherit="false" user="spirent" user.inherit="false" password.masked="true" password="SrqvrrOjrgE=" password.inherit="false" acceptAllCertificates="true" acceptAllCertificates.inherit="false"/>
+                        <httpHeader inherit="false" transferableToolId="com.fnfr.itest.applications.webservices.restful">
+                            <memberClasses>
+                                <item>com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry</item>
+                            </memberClasses>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="Content-Type" header.inherit="false" value="application/json" value.inherit="false"/>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="Accept" header.inherit="false" value="application/json" value.inherit="false"/>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="X-Auth-Token" header.inherit="false" value="$token" value.inherit="false"/>
+                        </httpHeader>
+                    </applicationProperties>
+                </item>
+                <item guid="eb902b03-df06-42b1-b297-62dd379b5626" action="open" session="s1" skip="true">
+                    <command>
+                        <body>project://velocity_test_contents/session_profiles/velocity_ssh.ffsp</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
+                        <stepProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties">
+                            <completionProperties promptLearnUserResponseTime="0" promptLearnUserResponseTime.inherit="false">
+                                <completeWhen inherit="false">TIMED</completeWhen>
+                                <maxIdleTimeAddition inherit="false">0.0</maxIdleTimeAddition>
+                                <completionTime inherit="false">1</completionTime>
+                            </completionProperties>
+                        </stepProperties>
+                        <sessionProperties type="com.fnfr.svt.applications.ssh.documents.SSHProperties"/>
+                        <sessionClass type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    </applicationProperties>
+                </item>
+                <item guid="3b63fb21-2012-4587-84cc-c87f37e446d3" action="command" session="s1" skip="true">
+                    <command>
+                        <body>ping -w 1 [param ping_target]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties">
+                        <completionProperties promptLearnUserResponseTime="0" promptLearnUserResponseTime.inherit="false">
+                            <completeWhen inherit="false">TIMED</completeWhen>
+                            <waitForFirstCharBeforeIdle inherit="false">false</waitForFirstCharBeforeIdle>
+                            <maxIdleTimeAddition inherit="false">0.0</maxIdleTimeAddition>
+                            <completionTime inherit="false">2</completionTime>
+                        </completionProperties>
+                    </applicationProperties>
+                </item>
+                <item guid="6784e46c-5f61-4a24-8183-263635219351" action="command" session="s1" skip="true">
+                    <command>
+                        <body>exit</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties">
+                        <completionProperties promptLearnUserResponseTime="0" promptLearnUserResponseTime.inherit="false">
+                            <completeWhen inherit="false">TIMED</completeWhen>
+                            <maxIdleTimeAddition inherit="false">0.0</maxIdleTimeAddition>
+                            <completionTime inherit="false">1</completionTime>
+                        </completionProperties>
+                    </applicationProperties>
+                </item>
+                <item guid="892d228b-2c56-4e7c-a4af-d11070501638" action="sleep">
+                    <command>
+                        <body>6</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="bd0115d0-493c-4b7d-a9de-4c3ec641ca14" action="POST" session="t1">
+                    <command>
+                        <body>https://[param hostname]/velocity/api/reservation/v3/reservation/$reservationId/action?type=cancel</body>
+                    </command>
+                    <postProcessing>
+                        <analysisRules>
+                            <item>
+                                <extractorInfo extractorType="contains">
+                                    <extractorProperties type="com.fnfr.svt.mapping.execution.extractors.ExtractorContainsPropertyGroup">
+                                        <searchString>200 OK</searchString>
+                                    </extractorProperties>
+                                </extractorInfo>
+                                <processorInfo ruleType="assert">
+                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.AssertionPropertyGroup">
+                                        <expression>$value == 1</expression>
+                                        <actionsWhenTrue>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
+                                                    <message>{auto_message_true}</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="PassTestIfNotAlreadyFailed">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenTrue>
+                                        <actionsWhenFalse>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
+                                                    <message>{auto_message_false}</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="FailTest">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenFalse>
+                                    </ruleProperties>
+                                </processorInfo>
+                            </item>
+                        </analysisRules>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject" transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulInvokeProperties" action="https://[param hostname]/velocity/api/reservation/v3/reservation/$reservationId/action?type=cancel" action.inherit="false" rawresponse="true" rawresponse.inherit="false" includeHttpHeaders="true" includeHttpHeaders.inherit="false" includeHttpStatusLine="true" includeHttpStatusLine.inherit="false">
+                        <authentication transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.AuthenticationProperties" authenticationType="Secure" authenticationType.inherit="false" user="spirent" user.inherit="false" password.masked="true" password="SrqvrrOjrgE=" password.inherit="false" acceptAllCertificates="true" acceptAllCertificates.inherit="false"/>
+                        <httpHeader inherit="false" transferableToolId="com.fnfr.itest.applications.webservices.restful">
+                            <memberClasses>
+                                <item>com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry</item>
+                            </memberClasses>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="X-Auth-Token" header.inherit="false" value="$token" value.inherit="false"/>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="Accept" header.inherit="false" value="application/json" value.inherit="false"/>
+                            <item transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.HTTPHeaderEntry" header="Content-Type" header.inherit="false" value="application/json" value.inherit="false"/>
+                        </httpHeader>
+                    </applicationProperties>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
