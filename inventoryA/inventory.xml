@@ -1,9 +1,131 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
+	<drivers>
+		<driver>
+			<id>c84884a3-f4e8-4316-9117-a073bac4d8eb</id>
+			<name>AWS Driver 1.0.0</name>
+			<description></description>
+			<attachment>
+				<id>666195a5-7bff-46ee-9ff5-f3e0b65906d3</id>
+				<name>aws-driver-1.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>9b64f0e5-7724-4d90-8a78-3884b8a44230</id>
+			<name>AWS L2 Switch Driver 1.0.0</name>
+			<description></description>
+			<attachment>
+				<id>4a2fc29f-6a6e-498c-9672-59ebfcb721ea</id>
+				<name>aws-l2-switch-driver-1.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>68ca4b20-96de-4c72-a1b7-61bddefc424c</id>
+			<name>Calient Driver 1.0.11</name>
+			<description></description>
+			<attachment>
+				<id>5930094b-72a0-4e53-994a-74b8d09d5a18</id>
+				<name>calient-driver-1.0.11</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>0dafb906-4d92-47af-84a0-9e0097436f6c</id>
+			<name>Cisco Driver 5.4.2</name>
+			<description></description>
+			<attachment>
+				<id>e9fe751c-11d7-44b7-a46e-031b0db79d4e</id>
+				<name>cisco-driver-5.4.2</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>867c61ac-a189-11ea-bb37-0242ac130002</id>
+			<name>Kubernetes Driver 1.0.0</name>
+			<description></description>
+			<attachment>
+				<id>5b0cc4a4-2d0f-4ed9-b423-6de646855b7f</id>
+				<name>kubernetes-driver-1.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>66789c02-22f2-11e9-ab1d-663bd873d93c</id>
+			<name>Lepton L1 Switch Driver 2.0.0</name>
+			<description></description>
+			<attachment>
+				<id>5295b43b-48ae-4174-a20c-f167bbedf7c5</id>
+				<name>lepton-driver-2.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>c1e3ce79-748e-4749-913d-a399c0f22b77</id>
+			<name>MRV Driver 5.4.0</name>
+			<description></description>
+			<attachment>
+				<id>797d4078-1571-485b-ac80-6b74841c3eae</id>
+				<name>mrv-driver-5.4.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>caaf1720-d3e6-4ca1-9615-3458b80d1cf3</id>
+			<name>NetScout Driver 2.5.1</name>
+			<description></description>
+			<attachment>
+				<id>8d13459b-2178-441d-83c3-15a6f107bbed</id>
+				<name>netscout-driver-2.5.1</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>e660edc3-e5b6-4ecd-bcd9-5a152ffb94ec</id>
+			<name>Ping Driver 2.0.0</name>
+			<description></description>
+			<attachment>
+				<id>75f2cbb8-08e2-4b61-a1d4-40ea7d14eb4a</id>
+				<name>ping-driver-2.0.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>b7a10e22-d00f-4dc2-a3f4-f375a08cffe5</id>
+			<name>Ping6 Driver 1.2.0</name>
+			<description></description>
+			<attachment>
+				<id>81f34027-4178-4c23-9fbf-1803b330f59f</id>
+				<name>ping6-driver-1.2.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>960abfe9-d550-4d14-870a-732672f07c46</id>
+			<name>Polatis Driver 6.7.2</name>
+			<description></description>
+			<attachment>
+				<id>aa954bf9-03a9-4e89-be21-e2a11a2481b9</id>
+				<name>polatis-driver-6.7.2</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+		<driver>
+			<id>565b35cf-2764-44c7-8312-a3be6dec9997</id>
+			<name>SNMP Driver 2.5.0</name>
+			<description></description>
+			<attachment>
+				<id>61f6de46-226b-4d79-8999-02ada7b69b39</id>
+				<name>snmp-driver-2.5.0</name>
+				<contentType>application/zip</contentType>
+			</attachment>
+		</driver>
+	</drivers>
 	<templates>
 		<template>
-			<id>88810292-f613-4de1-96f9-c5a46fd22138</id>
-			<revisionId>88810292-f613-4de1-96f9-c5a46fd22138</revisionId>
+			<id>4558305e-c064-4860-a01f-919f34d4c9eb</id>
+			<revisionId>4558305e-c064-4860-a01f-919f34d4c9eb</revisionId>
 			<name>T1</name>
 			<description></description>
 			<isTemplate>true</isTemplate>
@@ -17,13 +139,13 @@
 			<defaultConfigAttach/>
 			<nestedTemplates>
 				<nestedTemplate>
-					<id>5af2b271-3417-4764-aa11-7359415d5467</id>
+					<id>80923d31-3460-49d5-8cc9-b1af777cbb29</id>
 				</nestedTemplate>
 			</nestedTemplates>
 		</template>
 		<template>
-			<id>5af2b271-3417-4764-aa11-7359415d5467</id>
-			<revisionId>5af2b271-3417-4764-aa11-7359415d5467</revisionId>
+			<id>80923d31-3460-49d5-8cc9-b1af777cbb29</id>
+			<revisionId>80923d31-3460-49d5-8cc9-b1af777cbb29</revisionId>
 			<name>T2</name>
 			<description></description>
 			<isTemplate>true</isTemplate>
@@ -37,10 +159,859 @@
 			<defaultConfigAttach/>
 		</template>
 	</templates>
+	<cableTypes>
+		<cableType>
+			<id>118d15fb-ad6c-41bd-a4fb-4d967150b50a</id>
+			<name>Active Copper QSFP+</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Make</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>aeaf075a-2d7e-48fe-9f9b-bdc1775344ec</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Model</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>aeaf075a-2d7e-48fe-9f9b-bdc1775344ec</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>aeaf075a-2d7e-48fe-9f9b-bdc1775344ec</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>aeaf075a-2d7e-48fe-9f9b-bdc1775344ec</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>94a2cd25-cd01-4adb-af84-63efcd1cfba2</id>
+			<name>Active Copper SFP+</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Make</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>4c05236e-9f7d-45cb-8d42-a4e0a15e850e</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Model</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>4c05236e-9f7d-45cb-8d42-a4e0a15e850e</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>4c05236e-9f7d-45cb-8d42-a4e0a15e850e</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>4c05236e-9f7d-45cb-8d42-a4e0a15e850e</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>33fd048e-453e-433d-9332-8ac3ff8658e4</id>
+			<name>Active Optical CXP</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Make</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>72d200a2-8855-4223-9f05-517f3cf76126</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Model</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>72d200a2-8855-4223-9f05-517f3cf76126</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>72d200a2-8855-4223-9f05-517f3cf76126</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>72d200a2-8855-4223-9f05-517f3cf76126</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>14d7efd6-df05-4a69-9f65-ede575af0db8</id>
+			<name>Active Optical QSFP+</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Make</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>9b73a831-b902-4898-8da7-3ae35c18140d</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Model</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>9b73a831-b902-4898-8da7-3ae35c18140d</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>9b73a831-b902-4898-8da7-3ae35c18140d</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>9b73a831-b902-4898-8da7-3ae35c18140d</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>0672b02b-113b-493c-b311-c57aa8cc54d5</id>
+			<name>Active Optical SFP+</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Make</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>07246723-7a10-4c24-a973-2c7cfe7a198d</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Model</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>07246723-7a10-4c24-a973-2c7cfe7a198d</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>07246723-7a10-4c24-a973-2c7cfe7a198d</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>07246723-7a10-4c24-a973-2c7cfe7a198d</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>c0087455-1f57-4804-aa6c-89c51de88172</id>
+			<name>CAT 5E</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Shielding</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Unshielded</value>
+					<required>false</required>
+					<group>552424f5-fbcd-4a18-9b0e-cd9ce3dbbd5c</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Shielded</availableValue>
+						<availableValue>Unshielded</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Core</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Stranded</value>
+					<required>false</required>
+					<group>552424f5-fbcd-4a18-9b0e-cd9ce3dbbd5c</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Solid</availableValue>
+						<availableValue>Stranded</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>552424f5-fbcd-4a18-9b0e-cd9ce3dbbd5c</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>5f08414b-3691-40b1-883f-3405eedadfa8</id>
+			<name>CAT 6</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Shielding</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Unshielded</value>
+					<required>false</required>
+					<group>aaddf941-595b-46a3-ba9f-d480d2e8a8e0</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Shielded</availableValue>
+						<availableValue>Unshielded</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Core</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Stranded</value>
+					<required>false</required>
+					<group>aaddf941-595b-46a3-ba9f-d480d2e8a8e0</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Solid</availableValue>
+						<availableValue>Stranded</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>aaddf941-595b-46a3-ba9f-d480d2e8a8e0</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>74671973-1c20-4a2a-8dfc-1495648c506c</id>
+			<name>CAT 6A</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Shielding</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Unshielded</value>
+					<required>false</required>
+					<group>82c499f1-0a06-425c-a57f-99831a0e601c</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Shielded</availableValue>
+						<availableValue>Unshielded</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Core</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Stranded</value>
+					<required>false</required>
+					<group>82c499f1-0a06-425c-a57f-99831a0e601c</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Solid</availableValue>
+						<availableValue>Stranded</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>82c499f1-0a06-425c-a57f-99831a0e601c</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>c67bec14-0fe4-4d01-b1c2-1ab50b22deb1</id>
+			<name>LMR-240</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>596bf9d3-1f89-4cee-b49a-423a14a95fa0</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Attenuation, dB</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>596bf9d3-1f89-4cee-b49a-423a14a95fa0</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>596bf9d3-1f89-4cee-b49a-423a14a95fa0</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>aff9d406-ee8f-4f74-8db8-2af2988f504f</id>
+			<name>LMR-400</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>d9f40f1d-2a34-4d1c-92dd-35c5e4d8b56b</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Attenuation, dB</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>d9f40f1d-2a34-4d1c-92dd-35c5e4d8b56b</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>d9f40f1d-2a34-4d1c-92dd-35c5e4d8b56b</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>3c07e0b8-dc7c-4df8-905b-717c0dac9dfe</id>
+			<name>OM1</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Color</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Orange</value>
+					<required>false</required>
+					<group>919b8156-238a-486a-9f55-2df15cd6074e</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Blue</availableValue>
+						<availableValue>Green</availableValue>
+						<availableValue>Orange</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Jacket Type</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>OFNR Riser</value>
+					<required>false</required>
+					<group>919b8156-238a-486a-9f55-2df15cd6074e</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>OFNP Plenum</availableValue>
+						<availableValue>OFNR Riser</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>919b8156-238a-486a-9f55-2df15cd6074e</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>9b1665be-4251-492f-a30a-4403682b2b88</id>
+			<name>OM2</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Color</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Orange</value>
+					<required>false</required>
+					<group>4c6f7d82-5161-414b-8e36-f1ada654ecea</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Aqua</availableValue>
+						<availableValue>Blue</availableValue>
+						<availableValue>Green</availableValue>
+						<availableValue>Orange</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Jacket Type</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>OFNR Riser</value>
+					<required>false</required>
+					<group>4c6f7d82-5161-414b-8e36-f1ada654ecea</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>OFNP Plenum</availableValue>
+						<availableValue>OFNR Riser</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>4c6f7d82-5161-414b-8e36-f1ada654ecea</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>b5db80e0-d03c-4da9-8d31-99eff21f716e</id>
+			<name>OM3</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Color</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Aqua</value>
+					<required>false</required>
+					<group>99eba6c0-4c66-4e3f-9526-e87fa063ef78</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Aqua</availableValue>
+						<availableValue>Blue</availableValue>
+						<availableValue>Green</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Jacket Type</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>OFNR Riser</value>
+					<required>false</required>
+					<group>99eba6c0-4c66-4e3f-9526-e87fa063ef78</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>OFNP Plenum</availableValue>
+						<availableValue>OFNR Riser</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>99eba6c0-4c66-4e3f-9526-e87fa063ef78</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>8e29af4e-ce33-453d-bfe5-2399b9ac8a08</id>
+			<name>OM4</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Color</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Aqua</value>
+					<required>false</required>
+					<group>edfd69a0-5a19-41fa-a6d0-e76830f2f00c</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Aqua</availableValue>
+						<availableValue>Blue</availableValue>
+						<availableValue>Green</availableValue>
+						<availableValue>Violet</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Jacket Type</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>OFNR Riser</value>
+					<required>false</required>
+					<group>edfd69a0-5a19-41fa-a6d0-e76830f2f00c</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>OFNP Plenum</availableValue>
+						<availableValue>OFNR Riser</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>edfd69a0-5a19-41fa-a6d0-e76830f2f00c</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>77bd5a7d-00d6-4599-b42b-f473f7061045</id>
+			<name>OM4+</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Color</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Violet</value>
+					<required>false</required>
+					<group>706cd55a-5f99-4204-abf8-0aac50966e55</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Aqua</availableValue>
+						<availableValue>Blue</availableValue>
+						<availableValue>Green</availableValue>
+						<availableValue>Violet</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Jacket Type</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>OFNR Riser</value>
+					<required>false</required>
+					<group>706cd55a-5f99-4204-abf8-0aac50966e55</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>OFNP Plenum</availableValue>
+						<availableValue>OFNR Riser</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>706cd55a-5f99-4204-abf8-0aac50966e55</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>0ee1a4a0-c1cf-4f9a-be36-b724007f011a</id>
+			<name>OS1</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Color</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Yellow</value>
+					<required>false</required>
+					<group>70fe0963-a32a-4677-84eb-4cc51bbb1d6d</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Blue</availableValue>
+						<availableValue>Green</availableValue>
+						<availableValue>Yellow</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Jacket Type</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>OFNR Riser</value>
+					<required>false</required>
+					<group>70fe0963-a32a-4677-84eb-4cc51bbb1d6d</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>OFNP Plenum</availableValue>
+						<availableValue>OFNR Riser</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>70fe0963-a32a-4677-84eb-4cc51bbb1d6d</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>930714eb-8acd-40a5-af95-15995a6f6d8b</id>
+			<name>OS2</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Color</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>Yellow</value>
+					<required>false</required>
+					<group>91816a6f-5141-429b-93da-d42209bfd15d</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>Blue</availableValue>
+						<availableValue>Green</availableValue>
+						<availableValue>Yellow</availableValue>
+					</availableValues>
+				</property>
+				<property>
+					<name>Jacket Type</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>DROP_DOWN_LIST</widgetType>
+					<value>OFNR Riser</value>
+					<required>false</required>
+					<group>91816a6f-5141-429b-93da-d42209bfd15d</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+					<availableValues>
+						<availableValue>OFNP Plenum</availableValue>
+						<availableValue>OFNR Riser</availableValue>
+					</availableValues>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>91816a6f-5141-429b-93da-d42209bfd15d</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>15eee485-2298-4642-aea7-8e90ce8ba138</id>
+			<name>Passive Copper QSFP+</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Make</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>932de640-921a-4238-b075-f1687fe4da65</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Model</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>932de640-921a-4238-b075-f1687fe4da65</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>932de640-921a-4238-b075-f1687fe4da65</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>932de640-921a-4238-b075-f1687fe4da65</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+		<cableType>
+			<id>e6fa92e9-ea94-4765-9404-3ecedc810b3c</id>
+			<name>Passive Copper SFP+</name>
+			<description></description>
+			<properties>
+				<property>
+					<name>Make</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>f1408d7c-f9db-415a-a734-f4fd8e371037</group>
+					<seqNo>0</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Model</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>f1408d7c-f9db-415a-a734-f4fd8e371037</group>
+					<seqNo>1</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>Length, m</name>
+					<description></description>
+					<datatype>DECIMAL</datatype>
+					<widgetType>DECIMAL_FIELD</widgetType>
+					<required>false</required>
+					<group>f1408d7c-f9db-415a-a734-f4fd8e371037</group>
+					<seqNo>2</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+			</properties>
+			<propertyGroups>
+				<propertyGroup>
+					<id>f1408d7c-f9db-415a-a734-f4fd8e371037</id>
+					<name>Main</name>
+					<seqNo>0</seqNo>
+					<isHidden>false</isHidden>
+				</propertyGroup>
+			</propertyGroups>
+		</cableType>
+	</cableTypes>
+	<resources/>
+	<cables/>
 	<orchestratedResources/>
 	<abstractResources>
 		<abstractResource>
-			<id>ccfac815-921e-47fc-b523-7f3f0553f7d0</id>
+			<id>736d964d-3c6b-4737-8b05-64b415be4b60</id>
 			<type>DEVICE</type>
 			<name>AbsT1</name>
 			<description></description>
@@ -50,18 +1021,18 @@
 			<icon/>
 			<nestedResources>
 				<abstractResource>
-					<id>88634614-94be-4c29-83a3-ea052cc10042</id>
+					<id>8b92e4ce-baf9-4081-8bf2-b61461ed7e20</id>
 					<type>DEVICE</type>
 					<name>AbsT2</name>
 					<description></description>
 					<condition>template[T2]</condition>
 					<reservationTime>IMMEDIATE</reservationTime>
 					<isPublic>true</isPublic>
-					<referencedTemplateId>5af2b271-3417-4764-aa11-7359415d5467</referencedTemplateId>
 					<icon/>
 				</abstractResource>
 			</nestedResources>
 		</abstractResource>
 	</abstractResources>
-	<topologies/>
+	<links/>
+	<associations/>
 </inventory>
