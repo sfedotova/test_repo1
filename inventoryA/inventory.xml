@@ -948,7 +948,7 @@
 			<id>2d19e07a-c020-4e0a-aaf4-c07c05738db3</id>
 			<type>DEVICE</type>
 			<name>s2</name>
-			<description>changed template in 85</description>
+			<description>changed template in 850</description>
 			<role>S2_ORCHESTRATED</role>
 			<referencedTemplateId>d2abced9-0439-4cdc-8d9e-d6515dcc4de4</referencedTemplateId>
 			<visibility>PUBLIC</visibility>
