@@ -36,7 +36,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>b633f3e1-359d-492f-bfa8-ad7bae39aa75</group>
+					<group>3e521990-d30c-4aa9-9cf8-2515085f20a5</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -46,7 +46,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -56,7 +56,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>8f7e51fb-6e35-438b-a99f-9eaee24788b1</group>
+					<group>65cb8360-ccfd-4582-81bc-2e1278b26e9a</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -66,7 +66,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>474a9492-0343-4855-87ee-3c04d453213d</group>
+					<group>a7480361-209e-42e6-b6a3-954b0d29b153</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -76,7 +76,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>8f7e51fb-6e35-438b-a99f-9eaee24788b1</group>
+					<group>65cb8360-ccfd-4582-81bc-2e1278b26e9a</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -86,7 +86,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -96,7 +96,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>b633f3e1-359d-492f-bfa8-ad7bae39aa75</group>
+					<group>3e521990-d30c-4aa9-9cf8-2515085f20a5</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -106,7 +106,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>PASSWORD_FIELD</widgetType>
 					<required>false</required>
-					<group>474a9492-0343-4855-87ee-3c04d453213d</group>
+					<group>a7480361-209e-42e6-b6a3-954b0d29b153</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -116,7 +116,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>b633f3e1-359d-492f-bfa8-ad7bae39aa75</group>
+					<group>3e521990-d30c-4aa9-9cf8-2515085f20a5</group>
 					<seqNo>3</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -126,7 +126,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>3</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -136,7 +136,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>4</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -146,7 +146,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>5</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -156,7 +156,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>6</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -166,7 +166,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>7</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -176,7 +176,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>8</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -186,7 +186,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>9</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -197,32 +197,32 @@
 					<widgetType>TEXT_FIELD</widgetType>
 					<value>85</value>
 					<required>false</required>
-					<group>1f94edcb-b978-4e8c-b73c-88490b5531ed</group>
+					<group>486d87ac-80a2-44db-a8d8-783f95b23bb7</group>
 					<seqNo>10</seqNo>
 					<encrypted>false</encrypted>
 				</property>
 			</properties>
 			<propertyGroups>
 				<propertyGroup>
-					<id>1f94edcb-b978-4e8c-b73c-88490b5531ed</id>
+					<id>486d87ac-80a2-44db-a8d8-783f95b23bb7</id>
 					<name>System Identification</name>
 					<seqNo>1</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>b633f3e1-359d-492f-bfa8-ad7bae39aa75</id>
+					<id>3e521990-d30c-4aa9-9cf8-2515085f20a5</id>
 					<name>Location Information</name>
 					<seqNo>2</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>474a9492-0343-4855-87ee-3c04d453213d</id>
+					<id>a7480361-209e-42e6-b6a3-954b0d29b153</id>
 					<name>Credentials</name>
 					<seqNo>3</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>8f7e51fb-6e35-438b-a99f-9eaee24788b1</id>
+					<id>65cb8360-ccfd-4582-81bc-2e1278b26e9a</id>
 					<name>NEW_group</name>
 					<seqNo>4</seqNo>
 					<isHidden>false</isHidden>
@@ -230,7 +230,7 @@
 			</propertyGroups>
 			<icon>
 				<attachment>
-					<id>e7c56607-c461-4f6e-b2a7-4df29e527b9e</id>
+					<id>1cb9935c-0311-4f15-8ecd-9b71c953518a</id>
 					<name>image (9).png</name>
 					<contentType>image/png</contentType>
 				</attachment>
@@ -257,7 +257,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>acea277b-aacb-4142-98d9-ef064058d77d</group>
+					<group>3cfcca66-9ba6-4168-a60a-79d2e02cbadc</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -267,7 +267,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -277,7 +277,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9711736d-778e-4a60-a75c-9a35349c483d</group>
+					<group>09a2a41e-d38e-4d66-b5a4-6c3e77e10014</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -287,7 +287,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>5ca29424-47c2-4892-a733-f782b8792fc2</group>
+					<group>2810186e-2b15-4bbc-8e4f-4dca13412ce7</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -297,7 +297,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -307,7 +307,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>acea277b-aacb-4142-98d9-ef064058d77d</group>
+					<group>3cfcca66-9ba6-4168-a60a-79d2e02cbadc</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -317,7 +317,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>PASSWORD_FIELD</widgetType>
 					<required>false</required>
-					<group>5ca29424-47c2-4892-a733-f782b8792fc2</group>
+					<group>2810186e-2b15-4bbc-8e4f-4dca13412ce7</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -327,7 +327,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>acea277b-aacb-4142-98d9-ef064058d77d</group>
+					<group>3cfcca66-9ba6-4168-a60a-79d2e02cbadc</group>
 					<seqNo>3</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -337,7 +337,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>3</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -347,7 +347,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>4</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -357,7 +357,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>5</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -367,7 +367,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>6</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -377,7 +377,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>7</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -387,7 +387,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>8</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -397,32 +397,32 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</group>
+					<group>824ffdce-eb7d-48ea-b936-065feffd0ac7</group>
 					<seqNo>9</seqNo>
 					<encrypted>false</encrypted>
 				</property>
 			</properties>
 			<propertyGroups>
 				<propertyGroup>
-					<id>9a7ce9ce-4f25-46fe-8e76-66a4b968e668</id>
+					<id>824ffdce-eb7d-48ea-b936-065feffd0ac7</id>
 					<name>System Identification</name>
 					<seqNo>1</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>acea277b-aacb-4142-98d9-ef064058d77d</id>
+					<id>3cfcca66-9ba6-4168-a60a-79d2e02cbadc</id>
 					<name>Location Information</name>
 					<seqNo>2</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>5ca29424-47c2-4892-a733-f782b8792fc2</id>
+					<id>2810186e-2b15-4bbc-8e4f-4dca13412ce7</id>
 					<name>Credentials</name>
 					<seqNo>3</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>9711736d-778e-4a60-a75c-9a35349c483d</id>
+					<id>09a2a41e-d38e-4d66-b5a4-6c3e77e10014</id>
 					<name>NEW_group</name>
 					<seqNo>4</seqNo>
 					<isHidden>false</isHidden>
@@ -430,7 +430,7 @@
 			</propertyGroups>
 			<icon>
 				<attachment>
-					<id>46498372-c85a-4287-95c6-946a7e91140c</id>
+					<id>33a7a196-10f1-4cb6-ac38-888b59cfd033</id>
 					<name>image (9).png</name>
 					<contentType>image/png</contentType>
 				</attachment>
@@ -439,7 +439,7 @@
 			<defaultConfigAttach/>
 			<sessions>
 				<session>
-					<id>55a5c48e-bc1c-4065-bec3-7f9d5e330076</id>
+					<id>e9cfc0ff-40c3-4301-b46b-efd771782b49</id>
 					<sessionId>59003e67-3c1d-4682-9a91-f1839a295d97</sessionId>
 					<name>new_session</name>
 					<language>Python</language>
@@ -449,29 +449,29 @@
 					<resourceId>33e15c1a-cf99-449c-b945-8b8f6367fd69</resourceId>
 					<properties>
 						<property>
-							<id>2ea682c8-5d73-4e6f-9050-ced0a49a1633</id>
+							<id>36039258-1539-4815-aecd-df2829750896</id>
 							<name>user</name>
 							<value>root</value>
 						</property>
 						<property>
-							<id>2bca026e-cb25-4d9c-bee2-24bb1d313e33</id>
+							<id>322c0d0b-cc64-4f68-b29b-dc6bd9c4185f</id>
 							<name>type</name>
 							<value>com.fnfr.svt.applications.ssh.documents.SSHProperties</value>
 						</property>
 						<property>
-							<id>9b263e76-19bb-4b73-9e44-dcd4fb3c90f2</id>
+							<id>fb0c04f1-4255-4e74-b51c-f1673b28c2c1</id>
 							<name>ipAddress</name>
 							<value>127.0.0.1</value>
 						</property>
 						<property>
-							<id>74d8c222-76c6-461a-b6ed-e0dc18cd116c</id>
+							<id>a59e4cd4-131e-41d6-b5f7-d59c3221354e</id>
 							<name>password</name>
 							<value>iRyLc4KQj80=</value>
 						</property>
 					</properties>
 				</session>
 				<session>
-					<id>f7fa16a1-ceba-4047-a91a-ca9dfb502fb8</id>
+					<id>08d6cbf3-7b77-461f-8d91-d39c69cfb1f2</id>
 					<sessionId>f433e17c-ffb8-408a-ae2c-872094ba2572</sessionId>
 					<name>bug_verif</name>
 					<language>Python</language>
@@ -481,12 +481,12 @@
 					<resourceId>33e15c1a-cf99-449c-b945-8b8f6367fd69</resourceId>
 					<properties>
 						<property>
-							<id>13bb8b5c-f8f4-446c-9056-708e9b2f1d9f</id>
+							<id>b3966b69-9d3a-4af5-8df3-578bb488fbee</id>
 							<name>type</name>
 							<value>com.fnfr.svt.applications.ssh.documents.SSHProperties</value>
 						</property>
 						<property>
-							<id>7f8ac268-8a23-40fe-b53f-1115ae65407c</id>
+							<id>6907895c-fd4d-4dcb-8d81-2fd24bbd4948</id>
 							<name>ipAddress</name>
 							<value>127.0.0.1</value>
 						</property>
@@ -518,7 +518,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d67177c8-53d4-4284-a371-a0be307d3d9f</group>
+					<group>f0049cdb-72d3-41be-9f21-1a61921f3b2d</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -528,7 +528,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d272ec05-f625-4f64-a1bd-fd20b185e272</group>
+					<group>1b8b33ba-e2ff-4a5d-af6a-379ba968f300</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -538,7 +538,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>739b4fa4-3a35-4c1b-8823-11af97e9846c</group>
+					<group>6268eb37-49dc-4cdd-982f-a67d87751898</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -548,7 +548,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d272ec05-f625-4f64-a1bd-fd20b185e272</group>
+					<group>1b8b33ba-e2ff-4a5d-af6a-379ba968f300</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -558,7 +558,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d67177c8-53d4-4284-a371-a0be307d3d9f</group>
+					<group>f0049cdb-72d3-41be-9f21-1a61921f3b2d</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -568,7 +568,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>PASSWORD_FIELD</widgetType>
 					<required>false</required>
-					<group>739b4fa4-3a35-4c1b-8823-11af97e9846c</group>
+					<group>6268eb37-49dc-4cdd-982f-a67d87751898</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -578,7 +578,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d67177c8-53d4-4284-a371-a0be307d3d9f</group>
+					<group>f0049cdb-72d3-41be-9f21-1a61921f3b2d</group>
 					<seqNo>3</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -588,7 +588,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d272ec05-f625-4f64-a1bd-fd20b185e272</group>
+					<group>1b8b33ba-e2ff-4a5d-af6a-379ba968f300</group>
 					<seqNo>3</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -598,7 +598,17 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d272ec05-f625-4f64-a1bd-fd20b185e272</group>
+					<group>1b8b33ba-e2ff-4a5d-af6a-379ba968f300</group>
+					<seqNo>4</seqNo>
+					<encrypted>false</encrypted>
+				</property>
+				<property>
+					<name>upgrade</name>
+					<description></description>
+					<datatype>STRING</datatype>
+					<widgetType>TEXT_FIELD</widgetType>
+					<required>false</required>
+					<group>f0049cdb-72d3-41be-9f21-1a61921f3b2d</group>
 					<seqNo>4</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -608,26 +618,26 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>false</required>
-					<group>d272ec05-f625-4f64-a1bd-fd20b185e272</group>
+					<group>1b8b33ba-e2ff-4a5d-af6a-379ba968f300</group>
 					<seqNo>5</seqNo>
 					<encrypted>false</encrypted>
 				</property>
 			</properties>
 			<propertyGroups>
 				<propertyGroup>
-					<id>d272ec05-f625-4f64-a1bd-fd20b185e272</id>
+					<id>1b8b33ba-e2ff-4a5d-af6a-379ba968f300</id>
 					<name>System Identification</name>
 					<seqNo>1</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>d67177c8-53d4-4284-a371-a0be307d3d9f</id>
+					<id>f0049cdb-72d3-41be-9f21-1a61921f3b2d</id>
 					<name>Location Information</name>
 					<seqNo>2</seqNo>
 					<isHidden>false</isHidden>
 				</propertyGroup>
 				<propertyGroup>
-					<id>739b4fa4-3a35-4c1b-8823-11af97e9846c</id>
+					<id>6268eb37-49dc-4cdd-982f-a67d87751898</id>
 					<name>Credentials</name>
 					<seqNo>3</seqNo>
 					<isHidden>false</isHidden>
@@ -635,7 +645,7 @@
 			</propertyGroups>
 			<icon>
 				<attachment>
-					<id>320ae146-02e2-4818-8a8e-bca4f15fb16f</id>
+					<id>ff33b3b1-0fd1-420a-b32b-6758303140fc</id>
 					<name>image (9).png</name>
 					<contentType>image/png</contentType>
 				</attachment>
@@ -686,7 +696,13 @@
 			<isCustomReservationTime>false</isCustomReservationTime>
 			<icon/>
 			<defaultImageAttach/>
-			<defaultConfigAttach/>
+			<defaultConfigAttach>
+				<attachment>
+					<id>b736973f-9533-4c67-a244-3622ee03ad80</id>
+					<name>c1.txt</name>
+					<contentType>text/plain</contentType>
+				</attachment>
+			</defaultConfigAttach>
 			<nestedTemplates>
 				<nestedTemplate>
 					<id>7f009c18-f4c3-4430-b120-ccefa6be8770</id>
@@ -704,7 +720,13 @@
 			<utilizationType>SHARED</utilizationType>
 			<reservationTime>IMMEDIATE</reservationTime>
 			<isCustomReservationTime>false</isCustomReservationTime>
-			<icon/>
+			<icon>
+				<attachment>
+					<id>6d7f792e-860c-463c-b243-2b6584d62b20</id>
+					<name>topo4.PNG</name>
+					<contentType>image/png</contentType>
+				</attachment>
+			</icon>
 			<defaultImageAttach/>
 			<defaultConfigAttach/>
 			<nestedTemplates>
@@ -726,7 +748,7 @@
 			<isCustomReservationTime>false</isCustomReservationTime>
 			<icon>
 				<attachment>
-					<id>fc598195-52a5-4289-b7a0-491375068f3e</id>
+					<id>498684ed-f038-408a-bfed-fe7d7e931cef</id>
 					<name>deviceConnections.PNG</name>
 					<contentType>image/png</contentType>
 				</attachment>
@@ -734,7 +756,7 @@
 			<defaultImageAttach/>
 			<defaultConfigAttach>
 				<attachment>
-					<id>7b1e67be-3ea9-4cfb-9e38-9ee9c18c1237</id>
+					<id>3bfdb622-8a15-407c-b3bc-c8dbaefa2b6e</id>
 					<name>c1.txt</name>
 					<contentType>text/plain</contentType>
 				</attachment>
@@ -758,7 +780,7 @@
 					<datatype>STRING</datatype>
 					<widgetType>TEXT_FIELD</widgetType>
 					<required>true</required>
-					<group>e166f0c6-b31d-4f33-ac04-aecf47398499</group>
+					<group>99b3f3b1-ad04-4566-a4c5-8767686b6412</group>
 					<seqNo>1</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -769,7 +791,7 @@
 					<widgetType>TEXT_FIELD</widgetType>
 					<value>Ethernet</value>
 					<required>false</required>
-					<group>e166f0c6-b31d-4f33-ac04-aecf47398499</group>
+					<group>99b3f3b1-ad04-4566-a4c5-8767686b6412</group>
 					<seqNo>2</seqNo>
 					<encrypted>false</encrypted>
 				</property>
@@ -780,14 +802,14 @@
 					<widgetType>INTEGER_FIELD</widgetType>
 					<value>1000</value>
 					<required>false</required>
-					<group>e166f0c6-b31d-4f33-ac04-aecf47398499</group>
+					<group>99b3f3b1-ad04-4566-a4c5-8767686b6412</group>
 					<seqNo>3</seqNo>
 					<encrypted>false</encrypted>
 				</property>
 			</properties>
 			<propertyGroups>
 				<propertyGroup>
-					<id>e166f0c6-b31d-4f33-ac04-aecf47398499</id>
+					<id>99b3f3b1-ad04-4566-a4c5-8767686b6412</id>
 					<name>System Identification</name>
 					<seqNo>1</seqNo>
 					<isHidden>false</isHidden>
@@ -815,14 +837,14 @@
 			</resourceGroup>
 			<icon>
 				<attachment>
-					<id>64713012-0966-4fca-a845-bc15b0349d69</id>
+					<id>14a8fbb1-e1b4-4f57-8ff3-e8ad7e1eec93</id>
 					<name>image (9).png</name>
 					<contentType>image/png</contentType>
 				</attachment>
 			</icon>
 			<sessions>
 				<session>
-					<id>77d99f24-dd24-4366-ae2a-2a6b64f469ff</id>
+					<id>d5140283-7bb2-4e56-b474-fcaf82a49708</id>
 					<sessionId>effafa7d-b1f2-46b1-891e-1ba84d03354d</sessionId>
 					<name>bug_fixing</name>
 					<language>Python</language>
@@ -832,12 +854,12 @@
 					<orchestratedResourceId>a313ec0f-222a-4ef3-8474-548e2a22c909</orchestratedResourceId>
 					<properties>
 						<property>
-							<id>daec37a2-3364-42ba-b23c-a1c0928a72e9</id>
+							<id>0e93adea-dfba-4ea7-bac6-f3c1bf588b53</id>
 							<name>ipAddress</name>
 							<value>127.0.0.1</value>
 						</property>
 						<property>
-							<id>a9b868fc-1b90-4d4b-9c8d-4fd503d33538</id>
+							<id>78da1176-dc5e-4b8d-a4f2-d4dee50286fa</id>
 							<name>type</name>
 							<value>com.fnfr.svt.applications.ssh.documents.SSHProperties</value>
 						</property>
@@ -874,7 +896,7 @@
 					<icon/>
 					<sessions>
 						<session>
-							<id>ff2ad4fc-69b9-407d-bb31-c94b2721a34b</id>
+							<id>fea84295-e474-45a9-863f-fca1328b59b3</id>
 							<sessionId>f18aca13-ede6-497d-8071-8fefb3d666dd</sessionId>
 							<name>new_session</name>
 							<language>Python</language>
@@ -884,12 +906,12 @@
 							<orchestratedResourceId>f554015c-ac11-4761-baf5-655b0e40a3ec</orchestratedResourceId>
 							<properties>
 								<property>
-									<id>6a906540-1e6e-4a86-a168-5283e65c445d</id>
+									<id>8e2c1d26-67e4-45a3-a19c-031de61e50b6</id>
 									<name>ipAddress</name>
 									<value>localhost</value>
 								</property>
 								<property>
-									<id>e3ac10af-ad38-4b93-ba01-66b1cf30087f</id>
+									<id>0b300ba0-cfd0-4e7e-afc3-cb46991159a5</id>
 									<name>type</name>
 									<value>com.fnfr.svt.applications.ssh.documents.SSHProperties</value>
 								</property>
@@ -933,9 +955,8 @@
 			<type>DEVICE</type>
 			<name>S2_3</name>
 			<description></description>
-			<condition></condition>
 			<role>S2_ORCHESTRATED</role>
-			<referencedTemplateId>a437fcb0-ed90-4bd9-9d2e-816e7d439d89</referencedTemplateId>
+			<referencedTemplateId>7f009c18-f4c3-4430-b120-ccefa6be8770</referencedTemplateId>
 			<visibility>PUBLIC</visibility>
 			<resourceGroup>
 				<name>RG2</name>
@@ -963,10 +984,16 @@
 					<reservationTime>IMMEDIATE</reservationTime>
 					<isPublic>true</isPublic>
 					<referencedTemplateId>7f009c18-f4c3-4430-b120-ccefa6be8770</referencedTemplateId>
-					<icon/>
+					<icon>
+						<attachment>
+							<id>6d7f792e-860c-463c-b243-2b6584d62b20</id>
+							<name>topo4.PNG</name>
+							<contentType>image/png</contentType>
+						</attachment>
+					</icon>
 					<sessions>
 						<session>
-							<id>9580a1be-18d9-4b7d-a59d-2e8966b99003</id>
+							<id>e08f2813-9b6a-4e88-9054-e171a32d912e</id>
 							<sessionId>fb6f13d7-9b9b-4930-94e4-fe83cadc4f04</sessionId>
 							<name>new_session</name>
 							<language>Python</language>
@@ -976,12 +1003,12 @@
 							<abstractResourceId>9f61c07e-4da1-454e-8e6d-3882d3a80a8f</abstractResourceId>
 							<properties>
 								<property>
-									<id>b0071ae6-d00b-4b27-a005-c5b10fd75320</id>
+									<id>b7f8e81b-e5eb-41ec-b402-21d516af32c6</id>
 									<name>ipAddress</name>
 									<value>localhost</value>
 								</property>
 								<property>
-									<id>b04528ad-d494-403f-9b04-810576a6a6d0</id>
+									<id>ab26ce15-04ee-4a70-9f2c-35a754c7fd36</id>
 									<name>type</name>
 									<value>com.fnfr.svt.applications.ssh.documents.SSHProperties</value>
 								</property>
@@ -1041,9 +1068,9 @@
 		</folders>
 		<topology>
 			<name>TEST</name>
-			<versionId>00ade886-9f72-4d0a-83cd-242e5992c943</versionId>
+			<versionId>f01f91e1-e72d-472b-b293-c7aa21b8d6b1</versionId>
 			<attachment>
-				<id>6befad51-4ef2-4719-8bec-521d381e620c</id>
+				<id>11619886-b982-484f-b4f0-88996be731f4</id>
 				<name>TEST</name>
 				<contentType>application/xml</contentType>
 			</attachment>
@@ -1051,9 +1078,9 @@
 		<topology>
 			<name>Topo1</name>
 			<folderId>e8f9f80d-aa0c-47fd-a69d-e971d0cb5930</folderId>
-			<versionId>418549e0-cd8f-4d61-8649-e7e5f0fce288</versionId>
+			<versionId>c785871e-6efb-4d4c-bcfe-ceccd35b18a4</versionId>
 			<attachment>
-				<id>f5f145f9-bb37-4d65-b4a3-04025ee01493</id>
+				<id>4a347304-5997-48b1-a1c1-3bb6b6bbbb17</id>
 				<name>Topo1</name>
 				<contentType>application/xml</contentType>
 			</attachment>
@@ -1061,9 +1088,9 @@
 		<topology>
 			<name>TOpo2</name>
 			<folderId>319dc4b3-0750-4d32-bad8-c428a161f674</folderId>
-			<versionId>0b926c3d-a179-4113-8be5-ef03d2a2fa57</versionId>
+			<versionId>6d3cb5c8-fc59-44dd-8c36-a8997ceb1dde</versionId>
 			<attachment>
-				<id>710fe987-b984-4347-88c5-da29fa291d23</id>
+				<id>e0a4b0d6-a6ba-42bb-96b5-bdd4657760fe</id>
 				<name>TOpo2</name>
 				<contentType>application/xml</contentType>
 			</attachment>
@@ -1071,9 +1098,9 @@
 		<topology>
 			<name>Topo4</name>
 			<folderId>cd420b0a-a926-4ad1-a7fe-c1702b46769e</folderId>
-			<versionId>f381a896-c01a-4844-8d29-c661a7752896</versionId>
+			<versionId>1ca0a754-e517-45fe-87fa-254522944513</versionId>
 			<attachment>
-				<id>a3a42655-4147-494c-9434-7972addd882e</id>
+				<id>120623e5-1352-4d4c-85d7-62918bd9e80c</id>
 				<name>Topo4</name>
 				<contentType>application/xml</contentType>
 			</attachment>
@@ -1081,9 +1108,9 @@
 		<topology>
 			<name>Topo5</name>
 			<folderId>a6d889b3-a31a-4495-bb69-ae41343203d0</folderId>
-			<versionId>8d0afbab-dcc3-454a-becd-28cd8aa325f4</versionId>
+			<versionId>c1b71805-e3d9-4694-bd8d-41d712a61403</versionId>
 			<attachment>
-				<id>50ca703a-a8f7-43cc-92f8-c9401ad237b4</id>
+				<id>040cc0bc-6d45-4df9-b3b2-c170eb880ee0</id>
 				<name>Topo5</name>
 				<contentType>application/xml</contentType>
 			</attachment>
@@ -1091,10 +1118,20 @@
 		<topology>
 			<name>Topo6</name>
 			<folderId>5434b5ab-4f14-4050-8e9e-5e310e730d25</folderId>
-			<versionId>33103d04-01b5-46fe-a531-c169e10979e8</versionId>
+			<versionId>d7cb333c-e4c4-47e8-a2e0-abc4e5fe7c67</versionId>
 			<attachment>
-				<id>7b8ef8fb-4ccc-4877-9a4d-5e10f56c7595</id>
+				<id>922321ba-3299-41b8-a98e-a946032f6340</id>
 				<name>Topo6</name>
+				<contentType>application/xml</contentType>
+			</attachment>
+		</topology>
+		<topology>
+			<name>Up_test</name>
+			<folderId>e8f9f80d-aa0c-47fd-a69d-e971d0cb5930</folderId>
+			<versionId>0149d83e-7fbe-45ed-aebb-655931c0f430</versionId>
+			<attachment>
+				<id>785ee5bc-42a1-455f-a494-4e1d9209fb14</id>
+				<name>Up_test</name>
 				<contentType>application/xml</contentType>
 			</attachment>
 		</topology>
