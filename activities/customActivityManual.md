@@ -28,7 +28,7 @@ This is a [link][reference-2] to reference-2
 
 ![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg=20x100)
 
-![Image with reference][reference-3]
+![Image with reference]([reference-3]=100x100)
 
 ![Image from file](./activities/mars.jpg)
 
@@ -86,4 +86,4 @@ Paragraph line 2
 
 [reference-1]: www.google.com
 [reference-2]: www.youtube.com
-[reference-3]: (https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg=100x100)
+[reference-3]: https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg
