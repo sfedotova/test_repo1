@@ -26,10 +26,9 @@ This is a [link][reference-2] to reference-2
 
 # Images
 
-<img src="https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg" alt="img" width="20"/>
-
+![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg =100x100)
 ![Image with reference][reference-3]
-![Image from file](/activity/mars.jpg)
+![Image from file](./mars.jpg =100x)
 
 # Videos
 
