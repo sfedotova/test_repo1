@@ -26,11 +26,11 @@ This is a [link][reference-2] to reference-2
 
 # Images
 
-![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg =100x100)
+![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg)
 
 ![Image with reference][reference-3]
 
-![Image from file](./mars.jpg =100x)
+![Image from file](./mars.jpg)
 
 # Videos
 
