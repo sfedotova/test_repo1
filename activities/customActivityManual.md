@@ -27,12 +27,15 @@ This is a [link][reference-2] to reference-2
 # Images
 
 ![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg =100x100)
+
 ![Image with reference][reference-3]
+
 ![Image from file](./mars.jpg =100x)
 
 # Videos
 
 [Sample Video](https://www.youtube.com/watch?v=m8DL12m9D8U)  
+
 [![https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg?interpolation=lanczos-none&fit=around|392:261](http://img.youtube.com/vi/m8DL12m9D8U/0.jpg)](http://www.youtube.com/watch?v=m8DL12m9D8U "Sample Video 2")
 
 # Blockquotes
