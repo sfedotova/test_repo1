@@ -36,7 +36,11 @@ This is a [link][reference-2] to reference-2
 
 ![Image with reference]([reference-3]=100x100)
 
-![Image from file](mars.jpg)
+![Image from file1](mars.jpg)
+![Image from file2](mars.jpg=2000x1000)
+![Image from file3](mars.jpg=100x1000)
+![Image from file4](mars.jpg=500x)
+
 
 # Videos
 
