@@ -38,15 +38,13 @@ This is a [link][reference-2] to reference-2
 
 ![Image from file1](mars.jpg)
 
-![Image from file2](mars.jpg=000x1000)
+![Image from file2](mars.jpg=2000x1000)
 
-![Image from file3](mars.jpg=100x000)
+![Image from file3](mars.jpg=100x1000)
 
 ![Image from file4](mars.jpg=5x)
 
 ![Image from file5](mars.jpg=9x9)
-
-![Image from file6](mars.jpg=x9)
 
 
 
@@ -104,4 +102,4 @@ Paragraph line 2
 
 [reference-1]: www.google.com
 [reference-2]: www.youtube.com
-[reference-3]: https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg
+[reference-3]: (https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg)
