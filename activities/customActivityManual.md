@@ -34,11 +34,14 @@ This is a [link][reference-2] to reference-2
 
 ![Sample image4](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg=100x200)
 
-![Image with reference]([reference-3]=100x100)
+![Image with reference]([reference-3])
 
 ![Image from file1](mars.jpg)
+
 ![Image from file2](mars.jpg=2000x1000)
+
 ![Image from file3](mars.jpg=100x1000)
+
 ![Image from file4](mars.jpg=500x)
 
 
@@ -96,4 +99,4 @@ Paragraph line 2
 
 [reference-1]: www.google.com
 [reference-2]: www.youtube.com
-[reference-3]: https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg
+[reference-3]: https://st.motortrend.com/uploads/sites/10/2015/09/2016-Lamborghini-Aventador-LP-750-4-Superveloce-front-three-quarter-in-motion-026.jpg=100x100
