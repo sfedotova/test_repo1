@@ -26,11 +26,17 @@ This is a [link][reference-2] to reference-2
 
 # Images
 
-![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg=20x100)
+![Sample image1](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg)
+
+![Sample image2](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg=200x200)
+
+![Sample image3](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg=200x)
+
+![Sample image4](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg=100x200)
 
 ![Image with reference]([reference-3]=100x100)
 
-![Image from file](./activities/mars.jpg)
+![Image from file](mars.jpg)
 
 # Videos
 
