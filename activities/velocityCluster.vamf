@@ -1,14 +1,55 @@
 {
-   "name":"Reserve Velocity Cluster",
-   "shortDescription": "Activity allows to reserve Velocity Cluster and could be used for tests or demos",
-   "icon":"velocityCluster.svg",
-   "descriptionMarkdown":"velocityCluster.md",
-   "topology": [{
+  "name": "Reserve Velocity Cluster",
+  "shortDescription": "Activity allows to reserve Velocity Cluster and could be used for tests or demos",
+  "icon": "velocityCluster.svg",
+  "descriptionMarkdown": "velocityCluster.md",
+  "topology": [
+    {
+      "uuid": "607d1caa-51a9-401e-b8da-9a8b46d0e102",
       "name": "Velocity Cluster",
-      "actionTitle":"Reserve",
+      "actionTitle": "Reserve",
       "description": "Immidiate reservation of two VMs Velocity VM and VDS VM",
-      "reservationDuration":"60",
+      "reservationDuration": "60",
       "automation": [],
-      "interaction":[]
-    }]
+      "startupTasks": [
+        {
+          "name": "startup task",
+          "testPath": "main/velocity_test_contents/hello-world-scripts/hello-world.py",
+          "parametersList": [
+            {
+              "name": "param1",
+              "description": "Username of the agent to set up",
+              "value": "param1 value"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "os.type",
+              "value": "windows"
+            }
+          ]
+        }
+      ],
+      "teardownTasks": [
+        {
+          "name": "startup task",
+          "testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc",
+          "parametersList": [
+            {
+              "name": "param1",
+              "description": "Username of the agent to set up",
+              "value": "param1 value"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "os.type",
+              "value": "windows"
+            }
+          ]
+        }
+      ],
+      "interaction": []
+    }
+  ]
 }
