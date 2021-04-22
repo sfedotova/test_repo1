@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Velocity Cluster</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="fea52e8b-8d75-455e-baa5-80751d9625c7" id="i0259ece7-6ade-40b5-8f88-88cff853226a" shared="true" type="device">
+<property isimportant="false" name="name">Velocity</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=fea52e8b-8d75-455e-baa5-80751d9625c7</property>
+<property isimportant="false" name="ilo_iconId">e27ddd84-6f64-408b-aa4b-c7300382a11a</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC]</extensions>
+<boundary height="100" width="100" x="-111.33333333333331" y="-108.33333333333331"/>
+<resource guid="ia1690c11-d923-4f30-9557-c6f6a5ba5c98" id="ia1690c11-d923-4f30-9557-c6f6a5ba5c98" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">connected</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+<resource guid="fea52e8b-8d75-455e-baa5-80751d9625c7" id="i78e82a30-0f7a-47e6-8030-5ce122fbb67a" shared="true" type="device">
+<property isimportant="false" name="name">VDS</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=fea52e8b-8d75-455e-baa5-80751d9625c7</property>
+<property isimportant="false" name="ilo_iconId">e27ddd84-6f64-408b-aa4b-c7300382a11a</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC]</extensions>
+<boundary height="100" width="100" x="210.33333333333326" y="-108.33333333333331"/>
+<resource guid="i1b6a03b4-70aa-4425-86d8-9a370f3ef3b2" id="i1b6a03b4-70aa-4425-86d8-9a370f3ef3b2" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">connected</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity>
+<link id="i45f8b7a3-a9f1-4df3-bb33-0affc901600b">
+<property isimportant="false" name="name">Link</property>
+<property isimportant="false" name="type">Ethernet</property>
+<property isimportant="false" name="abstractResourceId"/>
+<property isimportant="false" name="abstractResourceName"/>
+<endpoint direction="bidirectional" id="i1b6a03b4-70aa-4425-86d8-9a370f3ef3b2"/>
+<endpoint direction="bidirectional" id="ia1690c11-d923-4f30-9557-c6f6a5ba5c98"/>
+<extensions type="com.fnfr.rm.condition"/>
+<propertyCollection name="connectionType" order="0">
+<property isimportant="false" name="id">326cdd32-4e6b-4883-344f-b00a8e517ead</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="kind">L1</property>
+<property isimportant="false" name="shortcut">Eth</property>
+</propertyCollection>
+</link>
+</connectivity>
+</body>
+</tbml>
