@@ -51,25 +51,6 @@
           ]
         }
       ],
-      "teardownTasks": [
-        {
-          "name": "startup task",
-          "testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc",
-          "parametersList": [
-            {
-              "name": "param1",
-              "description": "Username of the agent to set up",
-              "value": "param1 value"
-            }
-          ],
-          "requirements": [
-            {
-              "name": "os.type",
-              "value": "windows"
-            }
-          ]
-        }
-      ],
       "interaction": []
     }
   ]
