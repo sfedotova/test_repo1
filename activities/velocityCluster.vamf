@@ -14,19 +14,25 @@
       "startupTasks": [
         {
           "name": "startup task",
-          "testPath": "main/velocity_test_contents/hello-world-scripts/hello-world.py",
+          "testPath": "main/velocity_test_contents/test_cases/loop_test.fftc",
           "parametersList": [
             {
-              "name": "param1",
-              "description": "Username of the agent to set up",
-              "value": "param1 value",
+              "name": "loop_count",
+              "description": "Loop count",
+              "value": "3",
+              "type": "TEXT"
+            },
+            {
+              "name": "testcase",
+              "description": "Testcase",
+              "value": "medium",
               "type": "TEXT"
             }
           ],
           "requirements": [
             {
-              "name": "os.type",
-              "value": "windows"
+              "name": "language",
+              "value": "python"
             }
           ]
         }
