@@ -20,27 +20,7 @@
               "name": "param1",
               "description": "Username of the agent to set up",
               "value": "param1 value",
-              "type": "SECRET"
-            },
-            {
-              "description": "Username of the agent to set up",
-              "value": "param1 value",
-              "type": "SECRET"
-            },
-            {
-              "name": "param2",
-              "description": null,
-              "value": "param1 value",
-              "type": "SECRET"
-            },
-            {
-              "name": "param3",
-              "type": "SECRET"
-            },
-            {
-              "name": "param4",
-              "description": "Username of the agent to set up",
-              "value": "param1 value"
+              "type": "TEXT"
             }
           ],
           "requirements": [
