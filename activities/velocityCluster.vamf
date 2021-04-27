@@ -9,9 +9,9 @@
       "name": "Velocity Cluster",
       "actionTitle": "Reserve",
       "description": "Immidiate reservation of two VMs Velocity VM and VDS VM",
-      "reservationDuration": "2",
+      "reservationDuration": "60",
       "automation": [],
-      "intervalToRunEndTestCase": 1,
+      "intervalToRunEndTestCase": 13,
       "startupTasks": [
         {
           "name": "startup task",
