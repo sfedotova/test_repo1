@@ -11,32 +11,6 @@
       "description": "Immidiate reservation of two VMs Velocity VM and VDS VM",
       "reservationDuration": "3",
       "automation": [],
-      "startupTasks": [
-        {
-          "name": "startup task",
-          "testPath": "main/velocity_test_contents/test_cases/loop_test.fftc",
-          "parametersList": [
-            {
-              "name": "loop_count",
-              "description": "Loop count",
-              "value": "3",
-              "type": "TEXT"
-            },
-            {
-              "name": "testcase",
-              "description": "Testcase",
-              "value": "medium",
-              "type": "TEXT"
-            }
-          ],
-          "requirements": [
-            {
-              "name": "language",
-              "value": "python"
-            }
-          ]
-        }
-      ],
       "interaction": []
     }
   ]
