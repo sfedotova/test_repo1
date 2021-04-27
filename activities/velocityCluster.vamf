@@ -11,7 +11,6 @@
       "description": "Immidiate reservation of two VMs Velocity VM and VDS VM",
       "reservationDuration": "3",
       "automation": [],
-      "intervalToRunEndTestCase": 2,
       "startupTasks": [
         {
           "name": "startup task",
