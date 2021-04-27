@@ -9,8 +9,97 @@
       "name": "Velocity Cluster",
       "actionTitle": "Reserve",
       "description": "Immidiate reservation of two VMs Velocity VM and VDS VM",
-      "reservationDuration": "3",
+      "reservationDuration": "10",
       "automation": [],
+      "intervalToRunEndTestCase": 180,
+      "startupTasks": [
+        {
+          "name": "startup task",
+          "testPath": "main/velocity_test_contents/test_cases/loop_test.fftc",
+          "parametersList": [
+            {
+              "name": "loop_count",
+              "description": "Loop count",
+              "value": "3",
+              "type": "TEXT"
+            },
+            {
+              "name": "testcase",
+              "description": "Testcase",
+              "value": "medium",
+              "type": "TEXT"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "language",
+              "value": "itest"
+            }
+          ]
+        },
+        {
+		  "name": "startup task",
+		  "testPath": "main/velocity_test_contents/test_cases/always_fail.fftc",
+		  "parametersList": [
+			{
+			  "name": "sleep_seconds",
+			  "description": "Sleep seconds",
+			  "value": "3",
+			  "type": "TEXT"
+			}
+		  ],
+		  "requirements": [
+			{
+			  "name": "language",
+			  "value": "itest"
+			}
+		  ]
+		}
+      ],
+      "teardownTasks": [
+              {
+                "name": "teardown task",
+                "testPath": "main/velocity_test_contents/test_cases/loop_test.fftc",
+                "parametersList": [
+                  {
+                    "name": "loop_count",
+                    "description": "Loop count",
+                    "value": "2",
+                    "type": "TEXT"
+                  },
+                  {
+                    "name": "testcase",
+                    "description": "Testcase",
+                    "value": "medium",
+                    "type": "TEXT"
+                  }
+                ],
+                "requirements": [
+                  {
+                    "name": "language",
+                    "value": "itest"
+                  }
+                ]
+              },
+              {
+				  "name": "teardown task",
+				  "testPath": "main/velocity_test_contents/test_cases/sleep_1s.fftc",
+				  "parametersList": [
+					{
+					  "name": "sleep_seconds",
+					  "description": "Sleep seconds",
+					  "value": "3",
+					  "type": "TEXT"
+					}
+				  ],
+				  "requirements": [
+					{
+					  "name": "language",
+					  "value": "itest"
+					}
+				  ]
+				}
+            ],
       "interaction": []
     }
   ]
