@@ -5,13 +5,12 @@
   "descriptionMarkdown": "velocityCluster.md",
   "topology": [
     {
-      "uuid": "607d1caa-51a9-401e-b8da-9a8b46d0e102",
+      "uuid": "43b56ff5-c413-47e5-9a98-7d70bc267e97",
       "name": "Velocity Cluster",
       "actionTitle": "Reserve",
       "description": "Immidiate reservation of two VMs Velocity VM and VDS VM",
       "reservationDuration": "60",
       "automation": [],
-      "intervalToRunEndTestCase": 13,
       "startupTasks": [
         {
           "name": "startup task",
@@ -37,33 +36,7 @@
             }
           ]
         }
-      ],
-      "teardownTasks": [
-              {
-                "name": "teardown task",
-                "testPath": "main/velocity_test_contents/test_cases/loop_test.fftc",
-                "parametersList": [
-                  {
-                    "name": "loop_count",
-                    "description": "Loop count",
-                    "value": "2",
-                    "type": "TEXT"
-                  },
-                  {
-                    "name": "testcase",
-                    "description": "Testcase",
-                    "value": "medium",
-                    "type": "TEXT"
-                  }
-                ],
-                "requirements": [
-                  {
-                    "name": "language",
-                    "value": "python"
-                  }
-                ]
-              }
-            ],
+      ]
       "interaction": []
     }
   ]
