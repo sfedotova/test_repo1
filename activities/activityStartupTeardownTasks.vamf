@@ -1,23 +1,23 @@
 {
-  "name": "Test startup and teardown",
+  "name": "Test startup and teardown tasks",
   "shortDescription": "Activity to test getting startup and teardown tasks",
   "icon": "velocityCluster.svg",
   "descriptionMarkdown": "velocityCluster.md",
   "topology": [
     {
       "uuid": "43b56ff1-c413-47e5-9a98-7d70bc267e97",
-      "name": "Test topology no tasks",
+      "name": "Topology no tasks",
       "actionTitle": "Reserve",
-      "description": "Test topology no tasks description",
+      "description": "Topology no tasks description",
       "reservationDuration": "10",
       "automation": [],
       "interaction": []
     },
     {
       "uuid": "43b56ff2-c413-47e5-9a98-7d70bc267e97",
-      "name": "Test topology startup tasks",
+      "name": "Topology startup tasks",
       "actionTitle": "Reserve",
-      "description": "Test topology startup tasks description",
+      "description": "Topology startup tasks description",
       "reservationDuration": "20",
       "automation": [],
       "startupTasks": [
@@ -54,9 +54,9 @@
     },
     {
       "uuid": "43b56ff3-c413-47e5-9a98-7d70bc267e97",
-      "name": "Test topology teardown tasks",
+      "name": "Topology teardown tasks",
       "actionTitle": "Reserve",
-      "description": "Test topology teardown tasks description",
+      "description": "Topology teardown tasks description",
       "reservationDuration": "30",
       "automation": [],
       "intervalToRunEndTestCase": 60,
@@ -94,9 +94,9 @@
     },
     {
       "uuid": "43b56ff4-c413-47e5-9a98-7d70bc267e97",
-      "name": "Test topology startup and teardown tasks",
+      "name": "Topology startup and teardown tasks",
       "actionTitle": "Reserve",
-      "description": "Test topology startup and teardown tasks description",
+      "description": "Topology startup and teardown tasks description",
       "reservationDuration": "40",
       "automation": [],
       "intervalToRunEndTestCase": 180,
