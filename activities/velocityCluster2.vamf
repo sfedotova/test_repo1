@@ -1,6 +1,6 @@
 {
-  "name": "Test startup and teardown",
-  "shortDescription": "Activity to test getting startup and teardown tasks",
+  "name": "Test only startup",
+  "shortDescription": "Activity to test getting startup tasks",
   "icon": "velocityCluster.svg",
   "descriptionMarkdown": "velocityCluster.md",
   "topology": [
@@ -11,7 +11,6 @@
       "description": "Test topology description",
       "reservationDuration": "10",
       "automation": [],
-      "intervalToRunEndTestCase": 180,
       "startupTasks": [
         {
           "name": "startup task",
@@ -56,50 +55,6 @@
 		  ]
 		}
       ],
-      "teardownTasks": [
-              {
-                "name": "teardown task",
-                "testPath": "main/velocity_test_contents/test_cases/loop_test.fftc",
-                "parametersList": [
-                  {
-                    "name": "loop_count",
-                    "description": "Loop count",
-                    "value": "2",
-                    "type": "TEXT"
-                  },
-                  {
-                    "name": "testcase",
-                    "description": "Testcase",
-                    "value": "medium",
-                    "type": "TEXT"
-                  }
-                ],
-                "requirements": [
-                  {
-                    "name": "language",
-                    "value": "itest"
-                  }
-                ]
-              },
-              {
-				  "name": "teardown task",
-				  "testPath": "main/velocity_test_contents/test_cases/sleep_1s.fftc",
-				  "parametersList": [
-					{
-					  "name": "sleep_seconds",
-					  "description": "Sleep seconds",
-					  "value": "3",
-					  "type": "TEXT"
-					}
-				  ],
-				  "requirements": [
-					{
-					  "name": "language",
-					  "value": "itest"
-					}
-				  ]
-				}
-            ],
       "interaction": []
     }
   ]

@@ -1,0 +1,17 @@
+{
+  "name": "Test activity",
+  "shortDescription": "Activity",
+  "icon": "velocityCluster.svg",
+  "descriptionMarkdown": "velocityCluster.md",
+  "topology": [
+    {
+      "uuid": "43b56ff5-c413-47e5-9a98-7d70bc267e97",
+      "name": "Test topology",
+      "actionTitle": "Reserve",
+      "description": "Test topology description",
+      "reservationDuration": "10",
+      "automation": [],
+      "interaction": []
+    }
+  ]
+}
