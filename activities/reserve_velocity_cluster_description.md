@@ -15,6 +15,9 @@ And start using it for testing or demo.
 * Use this IPs to access Velocity in browser:
 
 
+
+
+
 ## Here is example of table:
 
 | Feature           | Support |
@@ -23,15 +26,15 @@ And start using it for testing or demo.
 | OpenStack         | Yes |
 
 
+
 ## Here is example of image inside markdown: 
 
-![Velocity Logo](img/velocity_logo.svg)
+![Velocity Logo](reserve_velocity_cluster_icon.svg)
 
-![Spirent Logo](img/spirent_logo.png)
 
 
 ## Here is example of video inside markdown:
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=EcnBWG-rcxY)
 
-[](url)
+

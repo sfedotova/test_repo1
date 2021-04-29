@@ -1,8 +1,8 @@
 {
   "name": "Test startup and teardown tasks",
   "shortDescription": "Activity to test getting startup and teardown tasks",
-  "icon": "velocityCluster.svg",
-  "descriptionMarkdown": "velocityCluster.md",
+  "icon": "reserve_velocity_cluster_icon.svg",
+  "descriptionMarkdown": "reserve_velocity_cluster_description.md",
   "topology": [
     {
       "uuid": "43b56ff1-c413-47e5-9a98-7d70bc267e97",
