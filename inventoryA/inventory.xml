@@ -1,23 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
 	<templates>
-		<template>
-			<id>fd4f2c38-2c1b-4534-9b34-79f567347681</id>
-			<revisionId>fd4f2c38-2c1b-4534-9b34-79f567347681</revisionId>
-			<name>T1</name>
-			<description></description>
-			<isTemplate>true</isTemplate>
-			<type>DEVICE</type>
-			<interfaceType>MANAGEMENT</interfaceType>
-			<utilizationType>SHARED</utilizationType>
-			<reservationTime>IMMEDIATE</reservationTime>
-			<isCustomReservationTime>false</isCustomReservationTime>
-			<icon/>
-			<defaultImageAttach/>
-			<defaultConfigAttach/>
-		</template>
 	</templates>
 	<orchestratedResources/>
-	<abstractResources/>
-	<topologies/>
+	<abstractResources>
+		<abstractResource>
+			<id>6c58780c-3ac0-4017-aaf2-e9f59932f2fc</id>
+			<type>DEVICE</type>
+			<name>Abstract PC</name>
+			<description></description>
+			<condition>template[PC]</condition>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isPublic>true</isPublic>
+			<icon/>
+		</abstractResource>
+	</abstractResources>
+	<topologies>
+		<topology>
+			<name>New topology 1</name>
+			<versionId>754baf04-c125-4dca-8367-73d36fe00d60</versionId>
+			<attachment>
+				<id>1219daa8-f9a9-4e81-8435-74e34cc5efb7</id>
+				<name>New topology 1</name>
+				<contentType>application/xml</contentType>
+			</attachment>
+			<tags>
+				<tag>example</tag>
+				<tag>robot</tag>
+				<tag>tag1</tag>
+			</tags>
+		</topology>
+		<topology>
+			<name>New topology 2</name>
+			<versionId>acfa25f5-878f-41aa-93bf-f8e11feaa600</versionId>
+			<attachment>
+				<id>7abfd162-e830-47cd-9ec2-95f0a1e6d4d1</id>
+				<name>New topology 2</name>
+				<contentType>application/xml</contentType>
+			</attachment>
+			<tags>
+				<tag>tag0</tag>
+				<tag>tag1</tag>
+				<tag>tag2</tag>
+				<tag>tag3</tag>
+				<tag>tag4</tag>
+				<tag>tag5</tag>
+			</tags>
+		</topology>
+	</topologies>
 </inventory>
