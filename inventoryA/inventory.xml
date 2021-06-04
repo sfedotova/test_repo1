@@ -1,6 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
 	<templates>
+		<template>
+			<id>fea52e8b-8d75-455e-baa5-80751d9625c8</id>
+			<revisionId>fea52e8b-8d75-455e-baa5-80751d9625c8</revisionId>
+			<name>PC_1</name>
+			<description></description>
+			<isTemplate>true</isTemplate>
+			<type>DEVICE</type>
+			<interfaceType>MANAGEMENT</interfaceType>
+			<utilizationType>SHARED</utilizationType>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isCustomReservationTime>false</isCustomReservationTime>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
+			<tags>
+				<tag>tag1</tag>
+				<tag>tag2</tag>
+				<tag>tag*^</tag>
+				<tag>tag1234567812345678123456781234567812345678123456781234567812345678123456781234567812345678</tag>
+			</tags>
+		</template>
 	</templates>
 	<orchestratedResources/>
 	<abstractResources>
