@@ -1,6 +1,6 @@
 {
-  "name": "Test startup and teardown tasks",
-  "shortDescription": "Activity to test getting startup and teardown tasks",
+  "name": "Activity demo swap duration and description columns",
+  "shortDescription": "Description",
   "icon": "reserve_velocity_cluster_icon.svg",
   "descriptionMarkdown": "reserve_velocity_cluster_description.md",
   "topology": [
