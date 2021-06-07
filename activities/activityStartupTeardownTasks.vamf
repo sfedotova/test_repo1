@@ -5,7 +5,7 @@
   "descriptionMarkdown": "reserve_velocity_cluster_description.md",
   "topology": [
     {
-      "uuid": "29374f3c-22fb-4086-aa06-e9405c1f2479",
+      "uuid": "22686f4b-560d-4ac6-b59d-ca249e17df78",
       "name": "Topology 1",
       "actionTitle": "Reserve",
       "description": "Description 1",
@@ -14,7 +14,7 @@
       "interaction": []
     },
     {
-      "uuid": "5a69dfd3-9673-4545-a505-63389db3a9fe",
+      "uuid": "475870d5-d847-4ac9-a0d6-9f910d4a89fa",
       "name": "Topology 2",
       "actionTitle": "Reserve",
       "description": "Description 2",
@@ -23,7 +23,7 @@
       "interaction": []
     },
     {
-      "uuid": "c49e2c75-86f2-4628-837c-4a8148844c2c",
+      "uuid": "17233ed5-41aa-4ee2-a6d4-07861a9927cc",
       "name": "Topology 3",
       "actionTitle": "Reserve",
       "description": "Description 3",
