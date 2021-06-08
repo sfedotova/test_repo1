@@ -19,16 +19,10 @@
           "testPath": "iTest_Community/ui_documentation/test_cases/assetCount.fftc",
           "parametersList": [
             {
-              "name": "param1",
-              "description": "param1 description",
-              "value": "test",
+              "name": "directory",
+              "description": null,
+              "value": "file:///C:/test/test/test/iTest-assets",
               "type": "TEXT"
-            },
-            {
-              "name": "param2",
-              "description": "param2 description",
-              "value": "1",
-              "type": "SECRET"
             }
           ]
         }
