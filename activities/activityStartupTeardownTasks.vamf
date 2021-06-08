@@ -5,31 +5,58 @@
   "descriptionMarkdown": "reserve_velocity_cluster_description.md",
   "topology": [
     {
-      "uuid": "22686f4b-560d-4ac6-b59d-ca249e17df78",
-      "name": "Topology 1",
+      "uuid": "12bfe13d-5906-44d5-aa0b-4b7b9fb497e9",
+      "name": "New topology",
       "actionTitle": "Reserve",
       "description": "Description 1",
       "reservationDuration": "10",
       "automation": [],
-      "interaction": []
-    },
-    {
-      "uuid": "475870d5-d847-4ac9-a0d6-9f910d4a89fa",
-      "name": "Topology 2",
-      "actionTitle": "Reserve",
-      "description": "Description 2",
-      "reservationDuration": "20",
-      "automation": [],
-      "interaction": []
-    },
-    {
-      "uuid": "17233ed5-41aa-4ee2-a6d4-07861a9927cc",
-      "name": "Topology 3",
-      "actionTitle": "Reserve",
-      "description": "Description 3",
-      "reservationDuration": "30",
-      "automation": [],
-      "interaction": []
+      "interaction": [],
+      "intervalToRunEndTestCase": 180,
+      "startupTasks": [
+        {
+          "name": "startup task",
+          "testPath": "iTest_Community/ui_documentation/test_cases/assetCount.fftc",
+          "parametersList": [
+            {
+              "name": "param1",
+              "description": "param1 description",
+              "value": "test",
+              "type": "TEXT"
+            },
+            {
+              "name": "param2",
+              "description": "param2 description",
+              "value": "1",
+              "type": "SECRET"
+            }
+          ]
+        }
+      ],
+      "teardownTasks": [
+        {
+          "name": "teardown task",
+          "testPath": "iTest_Community/ui_documentation/test_cases/assetCount.fftc",
+          "parametersList": [
+            {
+              "name": "directory",
+              "description": null,
+              "value": "file:///C:/Users/cwhitty/git/iTest-assets",
+              "type": "TEXT"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "language",
+              "value": "itest"
+            },
+            {
+              "name": "os.type",
+              "value": "linux"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
