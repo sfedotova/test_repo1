@@ -16,37 +16,13 @@
       "startupTasks": [
         {
           "name": "startup task",
-          "testPath": "iTest_Community/ui_documentation/test_cases/assetCount.fftc",
+          "testPath": "iTest_Community/ai_ping/test_cases/ping_elasticsearch.fftc",
           "parametersList": [
             {
-              "name": "directory",
+              "name": "elastic_user",
               "description": null,
-              "value": "file:///C:/test/test/test/iTest-assets",
+              "value": "test_test_Test",
               "type": "TEXT"
-            }
-          ]
-        }
-      ],
-      "teardownTasks": [
-        {
-          "name": "teardown task",
-          "testPath": "iTest_Community/ui_documentation/test_cases/assetCount.fftc",
-          "parametersList": [
-            {
-              "name": "directory",
-              "description": null,
-              "value": "file:///C:/Users/cwhitty/git/iTest-assets",
-              "type": "TEXT"
-            }
-          ],
-          "requirements": [
-            {
-              "name": "language",
-              "value": "itest"
-            },
-            {
-              "name": "os.type",
-              "value": "linux"
             }
           ]
         }
