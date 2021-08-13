@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
 <header>
-<name>New topology 1</name>
+<name>Shared topology 2</name>
 <description/>
+<isSharedAccess>true</isSharedAccess>
 </header>
 <illustration>
 <layer/>
 </illustration>
 <body>
 <resources>
-<resource guid="6c58780c-3ac0-4017-aaf2-e9f59932f2fc" id="ie0107e96-117f-4be2-85c1-04e8354843be" shared="true" type="device">
-<property isimportant="false" name="name">Abstract PC</property>
+<resource guid="e07b4f95-9f2b-4b36-a278-08a3163782e3" id="idc1157b1-a633-4f4d-9816-bb899f6dca74" shared="true" type="device">
+<property isimportant="false" name="name">Test template</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=6c58780c-3ac0-4017-aaf2-e9f59932f2fc</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=e07b4f95-9f2b-4b36-a278-08a3163782e3</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
 <property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC]</extensions>
-<boundary height="100" width="100" x="914" y="176"/>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Test template]</extensions>
+<boundary height="100" width="100" x="1203" y="190.00000000000017"/>
 <property name="inventoryName"/>
 </resource>
 </resources>
