@@ -2,7 +2,7 @@
 <header>
 <name>Shared topology 1</name>
 <description/>
-<isSharedAccess>true</isSharedAccess>
+<isSharedAccess>false</isSharedAccess>
 </header>
 <illustration>
 <layer/>
