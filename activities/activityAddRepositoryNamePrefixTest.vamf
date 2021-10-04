@@ -1,0 +1,41 @@
+{
+  "name": "Test add repository name prefix param",
+  "shortDescription": "Activity to test addRepositoryNamePrefix param",
+  "icon": "reserve_velocity_cluster_icon.svg",
+  "descriptionMarkdown": "reserve_velocity_cluster_description.md",
+  "topology": [
+    {
+      "name": "Topology Add Repo Name Prefix Param True",
+      "addRepositoryNamePrefix": true,
+      "actionTitle": "Reserve",
+      "reservationDuration": "20",
+      "startupTasks": [
+         {
+          "name": "TaskParamFalse",
+          "testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc",
+            "addRepositoryNamePrefix": false
+       },
+       {
+        "name": "TaskParamTrue",
+          "testPath": "assets/testcases/HelloWow.fftc",
+            "addRepositoryNamePrefix": true
+       },
+       {
+        "name": "TaskParamNotDefined",
+          "testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc"
+       }
+      ]
+    },
+    {
+      "name": "Topology Add Repo Name Prefix Param False",
+      "addRepositoryNamePrefix": false,
+      "actionTitle": "Reserve",
+      "reservationDuration": "20"
+    },
+    {
+      "name": "Topology Add Repo Name Prefix Param Not Defined",
+      "actionTitle": "Reserve",
+      "reservationDuration": "20"
+    }
+  ]
+}
